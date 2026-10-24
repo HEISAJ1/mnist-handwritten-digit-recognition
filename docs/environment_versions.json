@@ -1,0 +1,26 @@
+{
+  "python_version": "3.11.17",
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "ipython": "9.17.1",
+    "ipykernel": "7.3.0"
+  },
+  "verification": "All direct dependencies imported in the existing dedicated environment; no installation, model/data loading, training or predictions.",
+  "network_attempts": 0,
+  "notebook_frontend": "Not installed in this environment; attach its kernel to an external Anaconda frontend.",
+  "fresh_environment_solve": "Not performed",
+  "training_thread_environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2"
+  }
+}

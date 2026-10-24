@@ -1,0 +1,366 @@
+{
+  "scope": "Verified artifact copies with documented portability/path redactions and one Stage 7 report-notation correction.",
+  "copied_files": [
+    {
+      "file": "MNIST_Final_Project.ipynb",
+      "source_sha256": "410623c771db22a1a974da07edb923ed30de0423e2ce2995b097e70d28d78f73",
+      "submission_sha256": "9ee4255bd245c4b9a4ba5569807d5875d2ab735edfd6dec8f149662305c86883",
+      "bytes": 533687,
+      "changed_for_portability": true
+    },
+    {
+      "file": "MNIST_Final_Evaluation.ipynb",
+      "source_sha256": "b050efc2d798bfdd2bf3003eddb7ae1e8ad5c76c09503ec9d083e5be720fef67",
+      "submission_sha256": "61279ed5670a99a584e5b0025ff130a6d0d1b958ed6a404eaa9feb4b0abc02d0",
+      "bytes": 386914,
+      "changed_for_portability": true
+    },
+    {
+      "file": "report/TECHNICAL_REPORT.md",
+      "source_sha256": "234729b0847a2addb608c82f9edee658bc60dcb1d0c2eaf731c78702fa7f9dae",
+      "submission_sha256": "1c61903484751b9d4586cb3c97ab7e06bf9fc3f41475280ef7137a6c69bb4588",
+      "bytes": 57688,
+      "changed_for_portability": true,
+      "stage7_previous_submission_sha256": "c859c3fcfbb6f9fd119ffa252386a2c7764254ca71203840e950ee7c55fae3ac",
+      "stage7_documentation_correction": "Replace nested inline dollar delimiters in display-math float32 normalization with function parentheses. No numerical or experimental change."
+    },
+    {
+      "file": "models/logistic_regression.joblib",
+      "source_sha256": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+      "submission_sha256": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+      "bytes": 32271,
+      "changed_for_portability": false
+    },
+    {
+      "file": "models/logistic_regression_preprocessing.md",
+      "source_sha256": "a8fbfd50e620671f6afb73d46b31bee7cf32ea69a1ac735dcfbbbdf387f22d8e",
+      "submission_sha256": "a8fbfd50e620671f6afb73d46b31bee7cf32ea69a1ac735dcfbbbdf387f22d8e",
+      "bytes": 1026,
+      "changed_for_portability": false
+    },
+    {
+      "file": "models/neural_network.keras",
+      "source_sha256": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde",
+      "submission_sha256": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde",
+      "bytes": 1103198,
+      "changed_for_portability": false
+    },
+    {
+      "file": "models/neural_network_100.keras",
+      "source_sha256": "dea2fbecb7798396799cdf3d88bf30e79df139ebd4c68fd413e6e81ff57c6b53",
+      "submission_sha256": "dea2fbecb7798396799cdf3d88bf30e79df139ebd4c68fd413e6e81ff57c6b53",
+      "bytes": 1103198,
+      "changed_for_portability": false
+    },
+    {
+      "file": "models/neural_network_50.keras",
+      "source_sha256": "697dd36023e8a14a66a7ba08891e5ec70228fd38c3ace0bb09fea278cd443bd0",
+      "submission_sha256": "697dd36023e8a14a66a7ba08891e5ec70228fd38c3ace0bb09fea278cd443bd0",
+      "bytes": 535584,
+      "changed_for_portability": false
+    },
+    {
+      "file": "models/neural_network_preprocessing.md",
+      "source_sha256": "bad89d23faccbec7c82a1612b53aa70dd06d76d9d17dc0c1d06499830aa14af4",
+      "submission_sha256": "bad89d23faccbec7c82a1612b53aa70dd06d76d9d17dc0c1d06499830aa14af4",
+      "bytes": 718,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/logistic_regression_run.json",
+      "source_sha256": "66a8f1aa620adcbb4825b9967e639589251e892fd15342107f997b353f08c853",
+      "submission_sha256": "291ada885a7d00bad7aa760f8a730cc0a576d32d31ea9ca41c3f0e472a4d6274",
+      "bytes": 2467,
+      "changed_for_portability": true
+    },
+    {
+      "file": "results/stage2/logistic_validation_confusion_matrix.csv",
+      "source_sha256": "46263da03d457d4bddaf6d8098d927a54b392b2c582dffb13e84920060960a66",
+      "submission_sha256": "46263da03d457d4bddaf6d8098d927a54b392b2c582dffb13e84920060960a66",
+      "bytes": 298,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/logistic_validation_confusion_matrix.png",
+      "source_sha256": "e4ee824a8f41dfc9c06591e9468044392942df2fbc4533f667af7073537ca5e9",
+      "submission_sha256": "e4ee824a8f41dfc9c06591e9468044392942df2fbc4533f667af7073537ca5e9",
+      "bytes": 89420,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/logistic_validation_metrics.csv",
+      "source_sha256": "d3028c7e7e171ca9283e0c56aa1010960f1a4629362bc78521733d7b4b4385b3",
+      "submission_sha256": "d3028c7e7e171ca9283e0c56aa1010960f1a4629362bc78521733d7b4b4385b3",
+      "bytes": 230,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/logistic_validation_predictions.npz",
+      "source_sha256": "562c02ded59b21c9be3dbfb99a975032e9eef656a95d1a4a3f51c978c3a67ed8",
+      "submission_sha256": "562c02ded59b21c9be3dbfb99a975032e9eef656a95d1a4a3f51c978c3a67ed8",
+      "bytes": 60784,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/split_distribution.csv",
+      "source_sha256": "6d9ab1a3218a7f635f2beb2e52622de3896cda27c24e917638fce2d3043df18e",
+      "submission_sha256": "6d9ab1a3218a7f635f2beb2e52622de3896cda27c24e917638fce2d3043df18e",
+      "bytes": 147,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage2/split_indices.npz",
+      "source_sha256": "072b2b7c09f266a7b7898b265124392ed773b7436a4805a30d283d5f1ddae6d8",
+      "submission_sha256": "072b2b7c09f266a7b7898b265124392ed773b7436a4805a30d283d5f1ddae6d8",
+      "bytes": 480516,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/history_100.csv",
+      "source_sha256": "d822372b65a30b6434528bfc748ec6d15f38070a5ac96ee092812c0d9b8ccf2d",
+      "submission_sha256": "d822372b65a30b6434528bfc748ec6d15f38070a5ac96ee092812c0d9b8ccf2d",
+      "bytes": 458,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/history_50.csv",
+      "source_sha256": "30d50dbd6a39d0ddb7d0dbad7f299d3952414bbc65a937bb3b096cd7af841625",
+      "submission_sha256": "30d50dbd6a39d0ddb7d0dbad7f299d3952414bbc65a937bb3b096cd7af841625",
+      "bytes": 454,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/learning_curves.png",
+      "source_sha256": "16b2995ae4a08834829ce0ad0b543dd83af4c7c885dcabc462091b10aa9ef254",
+      "submission_sha256": "16b2995ae4a08834829ce0ad0b543dd83af4c7c885dcabc462091b10aa9ef254",
+      "bytes": 170470,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/neural_network_run.json",
+      "source_sha256": "b2165256e56686c2828a3cd952f4414a88c4ac8ce58562e01e3543c1bde25a6b",
+      "submission_sha256": "bb573b2a8f48ebe8b2d7d577b284ea0d5a417ad936724f7a0a46a53bbc21025a",
+      "bytes": 3826,
+      "changed_for_portability": true
+    },
+    {
+      "file": "results/stage3/neural_network_trials.csv",
+      "source_sha256": "2b1859816c07a20b83fa3f1ddd31311b675ed995df5bb2e91bce3214a3b47919",
+      "submission_sha256": "2b1859816c07a20b83fa3f1ddd31311b675ed995df5bb2e91bce3214a3b47919",
+      "bytes": 340,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/neural_validation_confusion_matrix.csv",
+      "source_sha256": "c9e7b546ed3dd588b295305e20f8c4140b845d71806583b47ba712f13b6591a2",
+      "submission_sha256": "c9e7b546ed3dd588b295305e20f8c4140b845d71806583b47ba712f13b6591a2",
+      "bytes": 284,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/neural_validation_confusion_matrix.png",
+      "source_sha256": "5d0d45046da74d0e1af80ffa4583e8cd790b8e2777769e3fe2bf061dc4e75e38",
+      "submission_sha256": "5d0d45046da74d0e1af80ffa4583e8cd790b8e2777769e3fe2bf061dc4e75e38",
+      "bytes": 87533,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/neural_validation_metrics.csv",
+      "source_sha256": "008956482e0d60f7276e7ba294f75adf01270084f565b9fbd0e94aa211c9c2c2",
+      "submission_sha256": "008956482e0d60f7276e7ba294f75adf01270084f565b9fbd0e94aa211c9c2c2",
+      "bytes": 202,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/neural_validation_predictions.npz",
+      "source_sha256": "59d4ca0840a7d90d6e4bf571b4cc5633c35e3865b01f0a5ae1d258b1e859d79d",
+      "submission_sha256": "59d4ca0840a7d90d6e4bf571b4cc5633c35e3865b01f0a5ae1d258b1e859d79d",
+      "bytes": 254898,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/selected_settings.json",
+      "source_sha256": "6a8c89884a5b8e178170cf5e79f462a9798952020a7f1477d17f71276a575a38",
+      "submission_sha256": "6a8c89884a5b8e178170cf5e79f462a9798952020a7f1477d17f71276a575a38",
+      "bytes": 743,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage3/validation_model_comparison.csv",
+      "source_sha256": "8ef28a3f39c76fa6f7600252030a6993bd48d07934558c4aaa08a457269669ad",
+      "submission_sha256": "8ef28a3f39c76fa6f7600252030a6993bd48d07934558c4aaa08a457269669ad",
+      "bytes": 313,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/confusion_pairs.csv",
+      "source_sha256": "958af6aef9273883381194f8364922fdcf2d437835b94abfdd3976656fe78e97",
+      "submission_sha256": "958af6aef9273883381194f8364922fdcf2d437835b94abfdd3976656fe78e97",
+      "bytes": 4479,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/digit_8_metric_example.csv",
+      "source_sha256": "6f84ea209dc0063badea9df8de6f127c97e216ba2caed84b3ccf4a0b56842957",
+      "submission_sha256": "6f84ea209dc0063badea9df8de6f127c97e216ba2caed84b3ccf4a0b56842957",
+      "bytes": 234,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/evaluation_record.json",
+      "source_sha256": "1e25c7a1b51ee4be9b0d4f93b416056715442ed702881d2f27b70b23d0a803dc",
+      "submission_sha256": "4b4fdc69f0bb34440e3bf24dcfc401d365b7e431cb5e856bda45d9283bc37609",
+      "bytes": 14432,
+      "changed_for_portability": true
+    },
+    {
+      "file": "results/stage4/final_model_comparison.csv",
+      "source_sha256": "c6eedb19c31bd6e8dbd693434eb286f8e3874217c90d817d51a90451b9f22521",
+      "submission_sha256": "c6eedb19c31bd6e8dbd693434eb286f8e3874217c90d817d51a90451b9f22521",
+      "bytes": 373,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/final_model_comparison.png",
+      "source_sha256": "14fadc0e470e5ec96771cb3891ab9d77d6355565755e690779dd5591fb32b31b",
+      "submission_sha256": "14fadc0e470e5ec96771cb3891ab9d77d6355565755e690779dd5591fb32b31b",
+      "bytes": 67011,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/frozen_models_before_evaluation.json",
+      "source_sha256": "cb890952dcc2bec204ea7b1984261eaa5379b6ef1d5f6304d11ff1d197e77311",
+      "submission_sha256": "f7822bbbeff5366a184dd9061d8ba6cdb5dfad02ae2bff2ee488844f956e6250",
+      "bytes": 1589,
+      "changed_for_portability": true
+    },
+    {
+      "file": "results/stage4/logistic_classification_report.csv",
+      "source_sha256": "7eabdc92817e6243b2662e0573c99df361dead24f61bf821a15c81203cfbe235",
+      "submission_sha256": "7eabdc92817e6243b2662e0573c99df361dead24f61bf821a15c81203cfbe235",
+      "bytes": 857,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/logistic_classification_report.txt",
+      "source_sha256": "5e7e1c2c4949d3874d819ffc94d1d554ae5ff1a6c69482fea3e4ec44f8682cf6",
+      "submission_sha256": "5e7e1c2c4949d3874d819ffc94d1d554ae5ff1a6c69482fea3e4ec44f8682cf6",
+      "bytes": 774,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/logistic_test_confusion_matrix.csv",
+      "source_sha256": "4de495335a81457afa42f97bd161e0fbdc64defe9974e4f9e3851a6d42aba1ed",
+      "submission_sha256": "4de495335a81457afa42f97bd161e0fbdc64defe9974e4f9e3851a6d42aba1ed",
+      "bytes": 311,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/logistic_test_confusion_matrix.png",
+      "source_sha256": "f776ce0d6579bc15f1788c7513f99991d30589a4a2995b85c4f9b5fb1e954a03",
+      "submission_sha256": "f776ce0d6579bc15f1788c7513f99991d30589a4a2995b85c4f9b5fb1e954a03",
+      "bytes": 98766,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/logistic_test_errors.png",
+      "source_sha256": "c6d561d9ef6d1d1db761acc51d1890f7575a67c99f11464c4625ad4c7e1fb7b3",
+      "submission_sha256": "c6d561d9ef6d1d1db761acc51d1890f7575a67c99f11464c4625ad4c7e1fb7b3",
+      "bytes": 48912,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/logistic_test_predictions.npz",
+      "source_sha256": "869273f959ab5b105e3c74fc26e16f38674ad08417f56a2ed466e36ca5cfd3de",
+      "submission_sha256": "869273f959ab5b105e3c74fc26e16f38674ad08417f56a2ed466e36ca5cfd3de",
+      "bytes": 25862,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/misclassified_test_indices.npz",
+      "source_sha256": "96de93e82afda751e93e1da8f320013cd7a5c8a4e26ac69571499321c6e2a005",
+      "submission_sha256": "96de93e82afda751e93e1da8f320013cd7a5c8a4e26ac69571499321c6e2a005",
+      "bytes": 8458,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_classification_report.csv",
+      "source_sha256": "379a2ae72f1f8e3700108458fa05ab22bb135c9fe4a58e45612f28fb7e8b52f7",
+      "submission_sha256": "379a2ae72f1f8e3700108458fa05ab22bb135c9fe4a58e45612f28fb7e8b52f7",
+      "bytes": 855,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_classification_report.txt",
+      "source_sha256": "c2150df16ef73023f30888a25020acbce0c425755364e033f812aff2f9f69fb0",
+      "submission_sha256": "c2150df16ef73023f30888a25020acbce0c425755364e033f812aff2f9f69fb0",
+      "bytes": 774,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_test_confusion_matrix.csv",
+      "source_sha256": "a108b463d471d72f4c9106d6f6240acc7b2cc71ec6157941650734912cb7e36d",
+      "submission_sha256": "a108b463d471d72f4c9106d6f6240acc7b2cc71ec6157941650734912cb7e36d",
+      "bytes": 288,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_test_confusion_matrix.png",
+      "source_sha256": "c5ee19b06b5081e07c79fbc57b37e2f5075b3ebec33cf044d7ace79874eacfc8",
+      "submission_sha256": "c5ee19b06b5081e07c79fbc57b37e2f5075b3ebec33cf044d7ace79874eacfc8",
+      "bytes": 86972,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_test_errors.png",
+      "source_sha256": "2363f25a069658daea68bab39317b009a0e3e9935b2f0b24588b330c3674cb5a",
+      "submission_sha256": "2363f25a069658daea68bab39317b009a0e3e9935b2f0b24588b330c3674cb5a",
+      "bytes": 49543,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/neural_test_predictions.npz",
+      "source_sha256": "efcc65ef13114a99b7dfe68545cba48ec104915b7794769a9fdf2960b1f5c612",
+      "submission_sha256": "efcc65ef13114a99b7dfe68545cba48ec104915b7794769a9fdf2960b1f5c612",
+      "bytes": 409651,
+      "changed_for_portability": false
+    },
+    {
+      "file": "results/stage4/test_metrics.json",
+      "source_sha256": "8d6b40ea8acae04acdadd49c9a93c905c0c1ba7c8bd9686859c4ae1b3061fa18",
+      "submission_sha256": "8d6b40ea8acae04acdadd49c9a93c905c0c1ba7c8bd9686859c4ae1b3061fa18",
+      "bytes": 457,
+      "changed_for_portability": false
+    },
+    {
+      "file": "report/figures/training_class_distribution.png",
+      "source_sha256": "2d754e6f4d4dbcb4ddcfbaa3b66204ed66f402cd1c9cfc72ab5497085db3e831",
+      "submission_sha256": "2d754e6f4d4dbcb4ddcfbaa3b66204ed66f402cd1c9cfc72ab5497085db3e831",
+      "bytes": 19672,
+      "changed_for_portability": false
+    },
+    {
+      "file": "report/figures/training_digit_samples.png",
+      "source_sha256": "9f996a798cb5ef631941f867fc050a464d90e27e3adbe21762fff94f0c40f888",
+      "submission_sha256": "9f996a798cb5ef631941f867fc050a464d90e27e3adbe21762fff94f0c40f888",
+      "bytes": 47181,
+      "changed_for_portability": false
+    },
+    {
+      "file": "report/figures/training_intensity_distribution.png",
+      "source_sha256": "6c1fe681e7493b8b32bae5144048cd2a2ac55be98c5e25b46e6f353ed50ea88f",
+      "submission_sha256": "6c1fe681e7493b8b32bae5144048cd2a2ac55be98c5e25b46e6f353ed50ea88f",
+      "bytes": 23916,
+      "changed_for_portability": false
+    }
+  ],
+  "changed_files": [
+    "MNIST_Final_Project.ipynb",
+    "MNIST_Final_Evaluation.ipynb",
+    "report/TECHNICAL_REPORT.md",
+    "results/stage2/logistic_regression_run.json",
+    "results/stage3/neural_network_run.json",
+    "results/stage4/evaluation_record.json",
+    "results/stage4/frozen_models_before_evaluation.json"
+  ]
+}

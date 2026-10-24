@@ -1,0 +1,37 @@
+{
+  "recorded_before_test_predictions_utc": "2026-10-24T01:04:45Z",
+  "models": {
+    "logistic_regression.joblib": {
+      "path": "./models/logistic_regression.joblib",
+      "sha256_before": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379"
+    },
+    "neural_network.keras": {
+      "path": "./models/neural_network.keras",
+      "sha256_before": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+    }
+  },
+  "neural_network_settings": {
+    "hidden_units_per_layer": 100,
+    "hidden_layers": 2,
+    "input_shape": [
+      28,
+      28
+    ],
+    "output_units": 10,
+    "hidden_activation": "relu",
+    "output_activation": "softmax",
+    "optimizer": "adam",
+    "learning_rate": 0.0010000000474974513,
+    "loss": "sparse_categorical_crossentropy",
+    "epochs": 5,
+    "batch_size": 100,
+    "initialization_seed": 42,
+    "selection_rule": "Highest final epoch validation accuracy; exact tie keeps 50 units. Final epoch weights retained.",
+    "split_file": "results/stage2/split_indices.npz",
+    "train_indices_sha256": "5d59711ba1feedab12a02ff2c6e0f8eef4f3d72e56cb7d14f82214e674762475",
+    "validation_indices_sha256": "1b1cc21c8d6c8a4c79457f3d2a975b33741aefcfa4ca514ac10761a3ae6e28f8"
+  },
+  "stage3_settings_sha256": "6a8c89884a5b8e178170cf5e79f462a9798952020a7f1477d17f71276a575a38",
+  "dataset_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "evaluation_scope": "One final prediction pass per frozen selected model; no retraining, tuning or rejected-model testing."
+}

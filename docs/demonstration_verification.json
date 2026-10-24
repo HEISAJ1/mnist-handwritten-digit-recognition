@@ -1,0 +1,332 @@
+{
+  "stage": "6A: handwritten digit demonstration",
+  "completed_utc": "2026-10-24T12:33:29.030861+00:00",
+  "python_version": "3.11.17",
+  "requested_mnist_project_interpreter_verified": true,
+  "method": "All eleven code cells executed in order in fresh IPython, then seven fixed index changes reran the image/preprocessing/prediction/display/preservation cells.",
+  "code_cells_executed": 11,
+  "predetermined_indices": [
+    0,
+    1,
+    2,
+    10,
+    100,
+    1000,
+    10000,
+    59999
+  ],
+  "selection_chosen_before_inference": true,
+  "partition": "original MNIST training partition only",
+  "final_test_predictions": 0,
+  "final_metrics_recalculated": false,
+  "samples": [
+    {
+      "sample_index": 0,
+      "actual_digit": 5,
+      "logistic_prediction": 5,
+      "neural_prediction": 5,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "23ceaef5eb61f0e70d64ac18fdf0f60df3d5971cf30bbadac7b6ebf07f782d2c",
+      "neural_probabilities": [
+        3.620278121729825e-08,
+        1.439668864122723e-07,
+        2.3193044398794882e-05,
+        0.07134915888309479,
+        4.150925615601167e-14,
+        0.9286265969276428,
+        1.1971321156600823e-10,
+        2.666726857114554e-07,
+        4.08223232994942e-10,
+        6.681798936369887e-07
+      ]
+    },
+    {
+      "sample_index": 1,
+      "actual_digit": 0,
+      "logistic_prediction": 0,
+      "neural_prediction": 0,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "2d1c3087ac5f2bed7c4d54a1b33bf75d09f479ee63c0df2e0a4378f6e7e9ae66",
+      "neural_probabilities": [
+        0.9999934434890747,
+        4.536906850205469e-09,
+        2.668152092155651e-06,
+        3.6191983099342906e-07,
+        2.1023778273843163e-09,
+        7.948089297826755e-09,
+        2.8363976980472216e-06,
+        8.938602036323573e-08,
+        9.8484609356575e-10,
+        6.246988277780474e-07
+      ]
+    },
+    {
+      "sample_index": 2,
+      "actual_digit": 4,
+      "logistic_prediction": 4,
+      "neural_prediction": 4,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "0eb473f604ef38a5bebf08e85288ebb97d6b387ef4a034f0472ce358ca838e8c",
+      "neural_probabilities": [
+        3.5185482829547254e-06,
+        1.8372600607108325e-05,
+        4.592171899275854e-05,
+        1.891530519060325e-05,
+        0.9987882971763611,
+        4.0653856103745056e-07,
+        6.942265827092342e-06,
+        0.0003352009516675025,
+        1.2937295650772285e-05,
+        0.000769508071243763
+      ]
+    },
+    {
+      "sample_index": 10,
+      "actual_digit": 3,
+      "logistic_prediction": 3,
+      "neural_prediction": 3,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "5c4506ec7c416b68143b0ed293218a31a87d98ac8a9171cb06c044e95c311dce",
+      "neural_probabilities": [
+        1.422480693236139e-07,
+        4.2777244857461483e-07,
+        2.7375541833407624e-08,
+        0.9954977035522461,
+        1.1382818021488106e-09,
+        6.9780276135134045e-06,
+        9.16883539578417e-13,
+        5.838823313730757e-10,
+        1.2575911569001619e-05,
+        0.004482164513319731
+      ]
+    },
+    {
+      "sample_index": 100,
+      "actual_digit": 5,
+      "logistic_prediction": 5,
+      "neural_prediction": 5,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "b33496520b135ff0c99f7f02135fa4ddce92c1864a26759d8b74897729fa0a51",
+      "neural_probabilities": [
+        0.0003227853449061513,
+        6.864247552584857e-05,
+        0.00037124549271538854,
+        0.0002732804568950087,
+        2.1363353880587965e-05,
+        0.8158845901489258,
+        0.006108490284532309,
+        6.1440441641025245e-06,
+        0.14252778887748718,
+        0.03441566228866577
+      ]
+    },
+    {
+      "sample_index": 1000,
+      "actual_digit": 0,
+      "logistic_prediction": 0,
+      "neural_prediction": 0,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "ee2f7606ca614e5a539861a6c82c9aed07695a651624fb34d96a3882a37ab6b6",
+      "neural_probabilities": [
+        0.9999229907989502,
+        2.396385134773027e-08,
+        2.2464323592430446e-06,
+        1.1633673011601786e-06,
+        1.049038402811675e-07,
+        1.3333658444025787e-06,
+        5.405204137787223e-05,
+        5.980306241326616e-07,
+        3.1362742447527125e-07,
+        1.7143049262813292e-05
+      ]
+    },
+    {
+      "sample_index": 10000,
+      "actual_digit": 3,
+      "logistic_prediction": 3,
+      "neural_prediction": 3,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "b3bea88c9fef3b0914de0ea0bd0cba1f690e9a2bfe12ef3ab20a3949d029a0bb",
+      "neural_probabilities": [
+        4.6551265620031756e-10,
+        3.563815076379484e-10,
+        9.08980268832238e-09,
+        0.9999969005584717,
+        4.700667481129239e-13,
+        1.729193712662891e-07,
+        1.6589880578771372e-14,
+        1.9510904003539054e-09,
+        3.902792755638984e-09,
+        2.958482355097658e-06
+      ]
+    },
+    {
+      "sample_index": 59999,
+      "actual_digit": 8,
+      "logistic_prediction": 8,
+      "neural_prediction": 8,
+      "logistic_matches": true,
+      "neural_matches": true,
+      "lr_input_shape": [
+        1,
+        784
+      ],
+      "nn_input_shape": [
+        1,
+        28,
+        28
+      ],
+      "image_sha256": "a4d26ec9c55ad38391292cd307292ee5d75fb27652874c1c4aadda20d04d4866",
+      "neural_probabilities": [
+        0.002056507393717766,
+        2.361483240065354e-07,
+        0.0001038245391100645,
+        2.23949955397984e-05,
+        2.0725922240671935e-06,
+        0.00030490392236970365,
+        2.3463808247470297e-06,
+        8.634067489765584e-05,
+        0.9971302151679993,
+        0.0002911975607275963
+      ]
+    }
+  ],
+  "model_predict_calls": {
+    "logistic": 8,
+    "neural": 8
+  },
+  "models_loaded": {
+    "logistic_regression": true,
+    "selected_100_100_neural_network": true
+  },
+  "model_hashes_before": {
+    "logistic_regression.joblib": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+    "neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+  },
+  "model_hashes_after": {
+    "logistic_regression.joblib": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+    "neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+  },
+  "learned_weights_unchanged": true,
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "dataset_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "existing_local_cache_used": true,
+  "network_attempts": 0,
+  "protected_write_attempts": 0,
+  "original_project_files_byte_unchanged": 98,
+  "previous_submission_files_byte_unchanged_during_execution": 64,
+  "training_or_modification_calls": [],
+  "errors_in_notebook_cells": [],
+  "figure_verification": "One Matplotlib image captured for every predetermined sample; images retained privately for visual inspection.",
+  "saved_notebook_sample_index": 0,
+  "scope": "Illustration of existing models; no retraining, tuning, new final evaluation, commit or publication.",
+  "integration_verification": {
+    "completed_utc": "2026-10-24T12:37:19.476576+00:00",
+    "original_project_files_byte_unchanged": 98,
+    "preexisting_submission_files_byte_unchanged": 59,
+    "updated_submission_documents_and_verifier": [
+      "README.md",
+      "SUBMISSION_FILES.txt",
+      "docs/FILE_REVIEW.md",
+      "docs/REPRODUCIBILITY.md",
+      "verify_submission.py"
+    ],
+    "new_public_files": [
+      "MNIST_Demonstration.ipynb",
+      "docs/demonstration_verification.json"
+    ],
+    "public_file_inventory_count": 66,
+    "valid_local_document_links": 45,
+    "all_existing_models_results_notebooks_report_unchanged": true,
+    "all_eight_sample_figures_visually_reviewed": true,
+    "default_notebook_output_matches_sample_zero": true,
+    "source_style": "Direct sequential cells; no custom functions/classes or new frameworks.",
+    "privacy": "No machine-specific absolute paths in public text; no dataset or temporary helpers in the file inventory.",
+    "git": {
+      "staged_files": 0,
+      "commits": 0,
+      "remotes": 0
+    },
+    "scope": "Demo executed and checked; final presentation and publishing not begun.",
+    "authoring_issue_resolved": "An initial tool-string quoting error was corrected before notebook creation or execution; no notebook cell errors."
+  }
+}

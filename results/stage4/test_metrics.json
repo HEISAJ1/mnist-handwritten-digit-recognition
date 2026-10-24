@@ -1,0 +1,18 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.9254,
+    "macro_precision": 0.9244319002938894,
+    "macro_recall": 0.9243477008476868,
+    "macro_f1": 0.9243025894985898,
+    "correct": 9254,
+    "incorrect": 746
+  },
+  "Selected Neural Network": {
+    "accuracy": 0.9753,
+    "macro_precision": 0.9751814850185851,
+    "macro_recall": 0.9749538646239934,
+    "macro_f1": 0.9750451010715324,
+    "correct": 9753,
+    "incorrect": 247
+  }
+}

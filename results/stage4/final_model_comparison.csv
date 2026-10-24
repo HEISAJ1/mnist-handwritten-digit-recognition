@@ -1,0 +1,3 @@
+Model,Test accuracy,Macro precision,Macro recall,Macro F1,Correct predictions,Incorrect predictions,Recorded training time (seconds)
+Logistic Regression,0.9254,0.9244319002938894,0.9243477008476868,0.9243025894985898,9254,746,52.84525089999988
+Selected Neural Network (100/100),0.9753,0.9751814850185851,0.9749538646239934,0.9750451010715324,9753,247,23.330180400000245

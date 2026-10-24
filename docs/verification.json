@@ -1,0 +1,167 @@
+{
+  "stage": "5B local repository preparation only",
+  "verified_utc": "2026-10-24T12:06:33.507526+00:00",
+  "status": "Static, saved-evidence and existing-environment import checks passed.",
+  "protected_original_files_byte_unchanged": 96,
+  "original_files_changed_by_preparation": 0,
+  "concurrent_original_file_changes": [
+    {
+      "file": "MNIST_Final_Evaluation.ipynb",
+      "before_sha256": "b050efc2d798bfdd2bf3003eddb7ae1e8ad5c76c09503ec9d083e5be720fef67",
+      "after_sha256": "d2ec61ce90636ccb99fc059d4735757e83f425c45c4deec56dfb6ea7938ad501",
+      "scope": "Only text/plain string-to-single-item-list display representation and language_info.version",
+      "language_info_before": "3.11.17",
+      "language_info_after": "3.13.9",
+      "sources_execution_counts_numerical_outputs_png_bytes_unchanged": true,
+      "preparation_wrote_original": false,
+      "cause": "Concurrent external save inferred; not independently confirmed.",
+      "submission_uses": "Approved beginning-of-stage snapshot, with documented portability changes only."
+    },
+    {
+      "file": "MNIST_Final_Project.ipynb",
+      "before_sha256": "410623c771db22a1a974da07edb923ed30de0423e2ce2995b097e70d28d78f73",
+      "after_sha256": "f1682182533889ebfb0e7ef8b8aada596dcd6ea3396229520da6788291b1df1f",
+      "scope": "Only text/plain string-to-single-item-list display representation and language_info.version",
+      "language_info_before": "3.11.17",
+      "language_info_after": "3.13.9",
+      "sources_execution_counts_numerical_outputs_png_bytes_unchanged": true,
+      "preparation_wrote_original": false,
+      "cause": "Concurrent external save inferred; not independently confirmed.",
+      "submission_uses": "Approved beginning-of-stage snapshot, with documented portability changes only."
+    }
+  ],
+  "source_copy_files": 50,
+  "planned_files": 64,
+  "code_cells_changed_for_paths_only": {
+    "MNIST_Final_Project.ipynb": [
+      4
+    ],
+    "MNIST_Final_Evaluation.ipynb": [
+      4
+    ]
+  },
+  "embedded_figure_outputs_preserved": 12,
+  "json_path_redactions": [
+    "results/stage2/logistic_regression_run.json:/python_executable",
+    "results/stage3/neural_network_run.json:/python_executable",
+    "results/stage4/evaluation_record.json:/python_executable",
+    "results/stage4/evaluation_record.json:/dataset_cache",
+    "results/stage4/evaluation_record.json:/execution_verification/python_executable",
+    "results/stage4/frozen_models_before_evaluation.json:/models/logistic_regression.joblib/path",
+    "results/stage4/frozen_models_before_evaluation.json:/models/neural_network.keras/path"
+  ],
+  "model_sizes_bytes": {
+    "logistic_regression.joblib": 32271,
+    "neural_network.keras": 1103198,
+    "neural_network_100.keras": 1103198,
+    "neural_network_50.keras": 535584
+  },
+  "requirements_verified": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "ipython": "9.17.1",
+    "ipykernel": "7.3.0"
+  },
+  "pip_check": "No broken requirements found.",
+  "privacy_review": {
+    "findings": [],
+    "scanned_text_and_container_entries": 61,
+    "scope": "All listed text files, serialized notebook outputs, model container members, NPZ contents and static decompressed Joblib bytes; no unpickling.",
+    "private_classroom_sources_caches_configuration_included": false
+  },
+  "git": {
+    "version": "git version 2.55.0.windows.5",
+    "branch": "main",
+    "staged_files": 0,
+    "commits": 0,
+    "remotes": 0,
+    "original_project_has_git_directory": false,
+    "all_listed_files_untracked_and_not_ignored": true,
+    "ignore_examples_checked": [
+      ".keras/datasets/mnist.npz",
+      ".cache/run.py",
+      ".ipynb_checkpoints/project.ipynb",
+      "envs/private/python.exe",
+      "classroom_reference/private.ipynb",
+      ".codex/config.toml",
+      ".env",
+      "__pycache__/x.pyc"
+    ]
+  },
+  "artifact_checks": {
+    "status": "passed",
+    "notebooks": {
+      "MNIST_Final_Project.ipynb": {
+        "code_cells": 40,
+        "check": "JSON structure and syntax; no execution"
+      },
+      "MNIST_Final_Evaluation.ipynb": {
+        "code_cells": 21,
+        "check": "JSON structure and syntax; no execution"
+      }
+    },
+    "copied_artifacts": 50,
+    "submission_files": 64,
+    "valid_local_links": 42,
+    "report_figures": 11,
+    "metrics_from_saved_predictions": {
+      "logistic_validation": {
+        "accuracy": 0.9236666666666666,
+        "macro_precision": 0.9230049135063446,
+        "macro_recall": 0.9225100000873843,
+        "macro_f1": 0.9226062575456211,
+        "correct": 5542,
+        "incorrect": 458
+      },
+      "neural_validation": {
+        "accuracy": 0.9728333333333333,
+        "macro_precision": 0.9727243935440469,
+        "macro_recall": 0.9724000017765396,
+        "macro_f1": 0.9725458311815516,
+        "correct": 5837,
+        "incorrect": 163
+      },
+      "logistic_test": {
+        "accuracy": 0.9254,
+        "macro_precision": 0.9244319002938894,
+        "macro_recall": 0.9243477008476868,
+        "macro_f1": 0.9243025894985898,
+        "correct": 9254,
+        "incorrect": 746
+      },
+      "neural_test": {
+        "accuracy": 0.9753,
+        "macro_precision": 0.9751814850185851,
+        "macro_recall": 0.9749538646239934,
+        "macro_f1": 0.9750451010715324,
+        "correct": 9753,
+        "incorrect": 247
+      }
+    },
+    "models_loaded": false,
+    "training_calls": 0,
+    "prediction_calls": 0,
+    "fresh_install_and_training_reproduction": "Not performed"
+  },
+  "models_loaded": false,
+  "training_calls": 0,
+  "new_prediction_calls": 0,
+  "dataset_loader_calls": 0,
+  "installations_performed": false,
+  "remaining_verification": [
+    "Fresh Conda environment creation/package installation",
+    "Interactive Jupyter frontend/rendering",
+    "Full training reproduction in an isolated copy only with approval"
+  ],
+  "pending_owner_input": [
+    "Report administrative placeholders and institution-specific rules",
+    "Any later repository account/name/visibility and publication approval"
+  ],
+  "corrected_check_error": "Initial scanner treated HTTPS URLs and random numeric bytes as drive paths; text boundaries and printable binary-path rules corrected. No model or result was changed."
+}

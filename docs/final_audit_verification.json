@@ -1,0 +1,400 @@
+{
+  "stage": "7: final local submission audit",
+  "checked_utc": "2026-10-24T14:05:23.401683+00:00",
+  "status": "Passed local artifact and evidence checks; hosted repository and personalisation remain pending.",
+  "formal_deliverables": {
+    "required": 9,
+    "complete_local_artifacts": 8,
+    "incomplete_hosted_repository": 1
+  },
+  "detailed_categories": {
+    "required": 20,
+    "complete": 19,
+    "pending_hosted_repository": 1
+  },
+  "submission_files": 72,
+  "notebooks": {
+    "MNIST_Final_Project.ipynb": {
+      "total_cells": 96,
+      "code_cells": 40,
+      "metadata_python": "3.11.17",
+      "custom_functions_or_classes": [],
+      "error_output_cells": [],
+      "relative_markdown_links": 0,
+      "sha256": "9ee4255bd245c4b9a4ba5569807d5875d2ab735edfd6dec8f149662305c86883"
+    },
+    "MNIST_Final_Evaluation.ipynb": {
+      "total_cells": 41,
+      "code_cells": 21,
+      "metadata_python": "3.11.17",
+      "custom_functions_or_classes": [],
+      "error_output_cells": [],
+      "relative_markdown_links": 0,
+      "sha256": "61279ed5670a99a584e5b0025ff130a6d0d1b958ed6a404eaa9feb4b0abc02d0"
+    },
+    "MNIST_Demonstration.ipynb": {
+      "total_cells": 23,
+      "code_cells": 11,
+      "metadata_python": "3.11.17",
+      "custom_functions_or_classes": [],
+      "error_output_cells": [],
+      "relative_markdown_links": 0,
+      "sha256": "abf11a3e65a6025bd87c2fab6587bfdd3866e6d78ff9f4c43f605fb3dd638d77"
+    }
+  },
+  "safe_submission_verifier": {
+    "status": "passed",
+    "notebooks": {
+      "MNIST_Final_Project.ipynb": {
+        "code_cells": 40,
+        "check": "JSON structure and syntax; no execution"
+      },
+      "MNIST_Final_Evaluation.ipynb": {
+        "code_cells": 21,
+        "check": "JSON structure and syntax; no execution"
+      },
+      "MNIST_Demonstration.ipynb": {
+        "code_cells": 11,
+        "check": "JSON structure and syntax; no execution"
+      }
+    },
+    "copied_artifacts": 50,
+    "submission_files": 72,
+    "valid_local_links": 96,
+    "report_figures": 11,
+    "metrics_from_saved_predictions": {
+      "logistic_validation": {
+        "accuracy": 0.9236666666666666,
+        "macro_precision": 0.9230049135063446,
+        "macro_recall": 0.9225100000873843,
+        "macro_f1": 0.9226062575456211,
+        "correct": 5542,
+        "incorrect": 458
+      },
+      "neural_validation": {
+        "accuracy": 0.9728333333333333,
+        "macro_precision": 0.9727243935440469,
+        "macro_recall": 0.9724000017765396,
+        "macro_f1": 0.9725458311815516,
+        "correct": 5837,
+        "incorrect": 163
+      },
+      "logistic_test": {
+        "accuracy": 0.9254,
+        "macro_precision": 0.9244319002938894,
+        "macro_recall": 0.9243477008476868,
+        "macro_f1": 0.9243025894985898,
+        "correct": 9254,
+        "incorrect": 746
+      },
+      "neural_test": {
+        "accuracy": 0.9753,
+        "macro_precision": 0.9751814850185851,
+        "macro_recall": 0.9749538646239934,
+        "macro_f1": 0.9750451010715324,
+        "correct": 9753,
+        "incorrect": 247
+      }
+    },
+    "models_loaded": false,
+    "training_calls": 0,
+    "prediction_calls": 0,
+    "fresh_install_and_training_reproduction": "Not performed"
+  },
+  "per_class_reports": {
+    "logistic": {
+      "digit_rows_verified": 10,
+      "confusion_total": 10000,
+      "correct": 9254
+    },
+    "neural": {
+      "digit_rows_verified": 10,
+      "confusion_total": 10000,
+      "correct": 9753
+    }
+  },
+  "neural_trial_checks": [
+    {
+      "hidden_units": [
+        50,
+        50
+      ],
+      "parameters": 42310,
+      "history_epochs": 5,
+      "final_values_match": true
+    },
+    {
+      "hidden_units": [
+        100,
+        100
+      ],
+      "parameters": 89610,
+      "history_epochs": 5,
+      "final_values_match": true
+    }
+  ],
+  "selected_neural_dense_units": [
+    100,
+    100,
+    10
+  ],
+  "models": {
+    "logistic_regression.joblib": {
+      "bytes": 32271,
+      "sha256": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379"
+    },
+    "neural_network.keras": {
+      "bytes": 1103198,
+      "sha256": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+    },
+    "neural_network_100.keras": {
+      "bytes": 1103198,
+      "sha256": "dea2fbecb7798396799cdf3d88bf30e79df139ebd4c68fd413e6e81ff57c6b53"
+    },
+    "neural_network_50.keras": {
+      "bytes": 535584,
+      "sha256": "697dd36023e8a14a66a7ba08891e5ec70228fd38c3ace0bb09fea278cd443bd0"
+    }
+  },
+  "presentation": {
+    "MNIST_Presentation_Compatible.pptx": {
+      "bytes": 467256,
+      "sha256": "afaf9a3ebf217be782cb62b4942f125c852da65ea8ce53fff41e8e22c610b643",
+      "identical_to_download": true
+    },
+    "MNIST_Presentation_Compatible.pdf": {
+      "bytes": 492590,
+      "sha256": "75b84d2e361dc816df39dce03cc0cfefb769f61fc1c051f0198d184bf75d2e73",
+      "identical_to_download": true
+    },
+    "pdf_pages": [
+      {
+        "page": 1,
+        "populated": true,
+        "nonwhite_fraction": 0.060168,
+        "render_sha256": "baf8d030e9a05f86234a78e72870aeba9348132a8120c86e7c4461d26136f40f"
+      },
+      {
+        "page": 2,
+        "populated": true,
+        "nonwhite_fraction": 0.043047,
+        "render_sha256": "911d478ee46bf79884499a8a8aa35296c404aeda426e1555b85da3a9760b6a12"
+      },
+      {
+        "page": 3,
+        "populated": true,
+        "nonwhite_fraction": 0.231218,
+        "render_sha256": "a721252ab5677a98fe5b2e9b165b6012ca336b482d8cd0692c851328138f9f5a"
+      },
+      {
+        "page": 4,
+        "populated": true,
+        "nonwhite_fraction": 0.271013,
+        "render_sha256": "dbb5f7514d1c087399b2dd48697cab9685827bc3883c86faf640981d466194af"
+      },
+      {
+        "page": 5,
+        "populated": true,
+        "nonwhite_fraction": 0.039673,
+        "render_sha256": "d590ec9a2b543410dd176de1e32a31bb63f9e113d1e414584f083c6f2920f3eb"
+      },
+      {
+        "page": 6,
+        "populated": true,
+        "nonwhite_fraction": 0.045061,
+        "render_sha256": "837a63b0c9e6fac9a6d2f5104c6ae852e35b346c2d19c34657d8273a592dc85e"
+      },
+      {
+        "page": 7,
+        "populated": true,
+        "nonwhite_fraction": 0.250602,
+        "render_sha256": "59a2ad64daaa71618866c8799b566d46a1ad2ac3ddc1d2ffb72980b05b7ef01b"
+      },
+      {
+        "page": 8,
+        "populated": true,
+        "nonwhite_fraction": 0.312859,
+        "render_sha256": "a928d670a03f7c38cf349cd1a1724010586169a52f025e89a1d4ba9c7ece28c6"
+      },
+      {
+        "page": 9,
+        "populated": true,
+        "nonwhite_fraction": 0.342719,
+        "render_sha256": "6eac1e6fb4031f2fe90d7186e7d83332c1169f5d678fce85386177087998b5aa"
+      },
+      {
+        "page": 10,
+        "populated": true,
+        "nonwhite_fraction": 0.350471,
+        "render_sha256": "145f0ea0ffc2fa66bbd84d94d7d49da286f32eddac5ceab6b00bad9f1958fe33"
+      },
+      {
+        "page": 11,
+        "populated": true,
+        "nonwhite_fraction": 0.068033,
+        "render_sha256": "800771f4ea831da47343113e705abbc2baa731650fa9e469a92d8ab3c453130e"
+      },
+      {
+        "page": 12,
+        "populated": true,
+        "nonwhite_fraction": 0.065621,
+        "render_sha256": "fb7edb87bff4ebcf0ccf76561c5e41c4a4e93b25df1e30b9bca69240f1d943c5"
+      },
+      {
+        "page": 13,
+        "populated": true,
+        "nonwhite_fraction": 0.186127,
+        "render_sha256": "f703057e9895b3d7220ba1527e1d09f7a3b43f21f3a8b76054abc5952a552dac"
+      },
+      {
+        "page": 14,
+        "populated": true,
+        "nonwhite_fraction": 0.057938,
+        "render_sha256": "ea7e047db75536348a1c7a11b99cf01b7d20af8643e451d68d155834c5e56750"
+      }
+    ],
+    "pdf_visual_review": "All 14 rendered pages inspected individually. No empty pages, missing figures or material clipping observed.",
+    "powerpoint_opening": "Student confirmed repaired file opens correctly on Windows. Not independently reopened through PowerPoint automation.",
+    "superseded_presentation_sha256": "f5c8afa1911da3d9df3f4e10023d1fa97cce0b0c21c6c5fa79dceebb056fc0d2"
+  },
+  "presentation_package_check": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 14,
+    "relationship_part_count": 34,
+    "slide_count": 14,
+    "status": "pass"
+  },
+  "native_presentation_tables": 4,
+  "genuine_existing_images_matched_by_sha256": 6,
+  "report": {
+    "required_sections": [
+      "Introduction",
+      "Problem Statement",
+      "Project Objectives",
+      "Background Research",
+      "Methodology",
+      "Results",
+      "Discussion",
+      "Conclusion",
+      "Recommendations"
+    ],
+    "figure_links": 11,
+    "notation_correction_only": true,
+    "administrative_placeholders": [
+      "[DEPARTMENT]",
+      "[INSTITUTION]",
+      "[MATRICULATION NUMBER]",
+      "[STUDENT NAME]",
+      "[SUBMISSION DATE]",
+      "[SUPERVISOR]"
+    ]
+  },
+  "environment": {
+    "python": "3.11.17",
+    "dedicated_interpreter_verified": true,
+    "versions": {
+      "tensorflow": "2.21.0",
+      "keras": "3.15.1",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.4.6",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "joblib": "1.6.0",
+      "ipython": "9.17.1",
+      "ipykernel": "7.3.0"
+    },
+    "imports": [
+      "numpy",
+      "pandas",
+      "matplotlib.pyplot",
+      "seaborn",
+      "sklearn",
+      "tensorflow",
+      "keras",
+      "joblib",
+      "IPython",
+      "ipykernel"
+    ],
+    "models_loaded": false,
+    "training_calls": 0,
+    "prediction_calls": 0,
+    "fresh_environment_created": false
+  },
+  "pip_check": "No broken requirements found.",
+  "privacy": {
+    "public_files_scanned": 72,
+    "archive_parts_scanned": 113,
+    "actionable_findings": [],
+    "ignored_sensitive_probes_passed": 8,
+    "models_and_split_predictions_not_ignored": true,
+    "limits": "Pattern-based audit and metadata inspection, not a guarantee against every possible disclosure."
+  },
+  "preservation": {
+    "baseline_files": 165,
+    "unchanged_files": 154,
+    "original_root_files_unchanged": 96,
+    "existing_models_results_notebooks_unchanged": true,
+    "original_report_unchanged": true,
+    "changed_documentation": [
+      "README.md",
+      "SUBMISSION_FILES.txt",
+      "docs/FILE_REVIEW.md",
+      "docs/PORTABILITY.md",
+      "docs/PROJECT_BRIEF.md",
+      "docs/REPRODUCIBILITY.md",
+      "docs/source_artifacts.json",
+      "presentation/PRESENTATION_SPEAKER_NOTES.md",
+      "presentation/PROJECT_DEFENSE_QA.md",
+      "report/TECHNICAL_REPORT.md"
+    ],
+    "retired_presentation_backed_up_and_excluded": true
+  },
+  "demonstration": {
+    "existing_record_reviewed": true,
+    "code_cells_previously_executed": 11,
+    "predetermined_indices": [
+      0,
+      1,
+      2,
+      10,
+      100,
+      1000,
+      10000,
+      59999
+    ],
+    "sample_zero": {
+      "actual": 5,
+      "logistic": 5,
+      "neural": 5
+    },
+    "new_inference": false
+  },
+  "reference_verification": {
+    "external_report_references": 13,
+    "all_primary_links_rechecked": true,
+    "retry": "Official Scikit-learn linear-model guide fetched successfully after an initial transient failure.",
+    "tensorflow_documentation_label": "v2.16.1, distinguished from experiment runtime 2.21.0"
+  },
+  "git": {
+    "branch": "main",
+    "staged_files": 0,
+    "tracked_files": 0,
+    "commits": 0,
+    "remotes": 0,
+    "untracked_intended_files": 72
+  },
+  "models_loaded_for_inference": false,
+  "training_calls": 0,
+  "new_predictions": 0,
+  "dataset_loads": 0,
+  "fresh_machine_reproduction_tested": false,
+  "notebook_GUI_execution_repeated": false,
+  "errors_corrected": [
+    "Windows Runtime PDF action overload resolution in private render helper.",
+    "One malformed report normalization formula, corrected only in submission documentation."
+  ]
+}

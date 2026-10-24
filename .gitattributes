@@ -1,0 +1,7 @@
+# Preserve recorded hashes across platforms: disable automatic newline conversion.
+# Text files still receive ordinary text diffs; the binary types below do not.
+* -text
+*.png binary
+*.npz binary
+*.joblib binary
+*.keras binary

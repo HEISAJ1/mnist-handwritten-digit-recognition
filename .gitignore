@@ -1,0 +1,54 @@
+# Local environments
+.venv/
+venv/
+env/
+envs/
+anaconda3/
+miniconda3/
+.conda/
+conda-meta/
+# Notebook, Python and execution caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.keras/
+.ipython/
+.jupyter/
+*.log
+*.tmp
+*.bak
+*.swp
+# Private classroom, assignment and agent material
+classroom_reference/
+Data Science Project.pdf
+AGENTS.md
+.codex/
+.agents/
+.aws/
+memories/
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.ssh/
+id_rsa*
+credentials*
+secrets*
+token.json
+# Large raw/intermediate data, not the small verified prediction/split NPZ records
+data/raw/
+data/intermediate/
+*.npy
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Trained models and results/*.npz are deliberately NOT ignored.

@@ -1,0 +1,21 @@
+{
+  "hidden_units_per_layer": 100,
+  "hidden_layers": 2,
+  "input_shape": [
+    28,
+    28
+  ],
+  "output_units": 10,
+  "hidden_activation": "relu",
+  "output_activation": "softmax",
+  "optimizer": "adam",
+  "learning_rate": 0.0010000000474974513,
+  "loss": "sparse_categorical_crossentropy",
+  "epochs": 5,
+  "batch_size": 100,
+  "initialization_seed": 42,
+  "selection_rule": "Highest final epoch validation accuracy; exact tie keeps 50 units. Final epoch weights retained.",
+  "split_file": "results/stage2/split_indices.npz",
+  "train_indices_sha256": "5d59711ba1feedab12a02ff2c6e0f8eef4f3d72e56cb7d14f82214e674762475",
+  "validation_indices_sha256": "1b1cc21c8d6c8a4c79457f3d2a975b33741aefcfa4ca514ac10761a3ae6e28f8"
+}

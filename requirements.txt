@@ -1,0 +1,13 @@
+# Recorded Python: 3.11.17 (create the Conda environment separately).
+# Direct runtime dependencies; transitive packages are not a full lockfile.
+tensorflow==2.21.0
+keras==3.15.1
+scikit-learn==1.9.1
+numpy==2.4.6
+pandas==3.1.0
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+# Verified notebook kernel dependencies; frontend may run in another environment.
+ipython==9.17.1
+ipykernel==7.3.0

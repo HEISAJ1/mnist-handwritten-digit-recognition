@@ -1,0 +1,105 @@
+{
+  "stage": "Stage 3; validation only",
+  "python_executable": "<active Python interpreter>",
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "dataset_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "initialization_seed": 42,
+  "selected_settings": {
+    "hidden_units_per_layer": 100,
+    "hidden_layers": 2,
+    "input_shape": [
+      28,
+      28
+    ],
+    "output_units": 10,
+    "hidden_activation": "relu",
+    "output_activation": "softmax",
+    "optimizer": "adam",
+    "learning_rate": 0.0010000000474974513,
+    "loss": "sparse_categorical_crossentropy",
+    "epochs": 5,
+    "batch_size": 100,
+    "initialization_seed": 42,
+    "selection_rule": "Highest final epoch validation accuracy; exact tie keeps 50 units. Final epoch weights retained.",
+    "split_file": "results/stage2/split_indices.npz",
+    "train_indices_sha256": "5d59711ba1feedab12a02ff2c6e0f8eef4f3d72e56cb7d14f82214e674762475",
+    "validation_indices_sha256": "1b1cc21c8d6c8a4c79457f3d2a975b33741aefcfa4ca514ac10761a3ae6e28f8"
+  },
+  "trials": [
+    {
+      "Hidden units per layer": 50,
+      "Parameters": 42310,
+      "Training accuracy": 0.973111093044281,
+      "Validation accuracy": 0.9639999866485596,
+      "Training loss": 0.09123410284519196,
+      "Validation loss": 0.1186956912279129,
+      "Training time (seconds)": 23.74706570000035
+    },
+    {
+      "Hidden units per layer": 100,
+      "Parameters": 89610,
+      "Training accuracy": 0.9821481704711914,
+      "Validation accuracy": 0.9728333353996277,
+      "Training loss": 0.059637196362018585,
+      "Validation loss": 0.09315917640924454,
+      "Training time (seconds)": 23.330180400000245
+    }
+  ],
+  "selected_validation_metrics": {
+    "accuracy": 0.9728333333333333,
+    "macro_precision": 0.9727243935440469,
+    "macro_recall": 0.9724000017765396,
+    "macro_f1": 0.9725458311815516
+  },
+  "selected_validation_loss": 0.09315917640924454,
+  "selected_training_time_seconds": 23.330180400000245,
+  "total_nn_fit_time_seconds": 47.07724610000059,
+  "timing_scope": "Each fit call includes five epoch-validation passes; excludes saving, later evaluation and prediction.",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2"
+  },
+  "validation_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9236666666666666,
+      "Macro precision": 0.9230049135063446,
+      "Macro recall": 0.9225100000873843,
+      "Macro F1": 0.9226062575456211,
+      "Training time (seconds)": 52.84525089999988
+    },
+    {
+      "Model": "Selected Neural Network",
+      "Accuracy": 0.9728333333333333,
+      "Macro precision": 0.9727243935440469,
+      "Macro recall": 0.9724000017765396,
+      "Macro F1": 0.9725458311815516,
+      "Training time (seconds)": 23.330180400000245
+    }
+  ],
+  "model_files": [
+    "models/neural_network_50.keras",
+    "models/neural_network_100.keras",
+    "models/neural_network.keras"
+  ],
+  "test_partition": "Reserved; no test images or labels used in Stage 3",
+  "reload_prediction_match": true,
+  "reloaded_validation_images": 6000,
+  "reload_max_probability_difference": 0.0,
+  "model_sha256": {
+    "neural_network_50.keras": "697dd36023e8a14a66a7ba08891e5ec70228fd38c3ace0bb09fea278cd443bd0",
+    "neural_network_100.keras": "dea2fbecb7798396799cdf3d88bf30e79df139ebd4c68fd413e6e81ff57c6b53",
+    "neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+  }
+}

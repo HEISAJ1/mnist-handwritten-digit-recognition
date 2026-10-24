@@ -1,0 +1,559 @@
+{
+  "stage": "Stage 4: final official MNIST test evaluation; no further model selection",
+  "completed_utc": "2026-10-24T01:14:02Z",
+  "python_executable": "<active Python interpreter>",
+  "python_version": "3.11.17",
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "dataset_cache": "./.keras/datasets/mnist.npz",
+  "dataset_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "raw_test_images_sha256": "6d87418db22cc8025d05968bec9bd5c3932904b23485740db143a061a2c9d161",
+  "test_labels_sha256": "ddeff807876a9661a1110d45c266c86239a3a1b7d37da0c3716a7a683c852ff5",
+  "test_indices": "Original order 0 through 9999; identical for both models",
+  "test_examples": 10000,
+  "raw_image_shape": [
+    10000,
+    28,
+    28
+  ],
+  "preprocessing": "uint8 pixels -> float32 -> divide by 255 in place; NN (10000,28,28); LR shared view (10000,784); integer labels unchanged",
+  "model_hashes_before": {
+    "logistic_regression.joblib": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+    "neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+  },
+  "model_hashes_after": {
+    "logistic_regression.joblib": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+    "neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde"
+  },
+  "in_memory_weight_fingerprints_unchanged": true,
+  "selected_nn_settings": {
+    "hidden_units_per_layer": 100,
+    "hidden_layers": 2,
+    "input_shape": [
+      28,
+      28
+    ],
+    "output_units": 10,
+    "hidden_activation": "relu",
+    "output_activation": "softmax",
+    "optimizer": "adam",
+    "learning_rate": 0.0010000000474974513,
+    "loss": "sparse_categorical_crossentropy",
+    "epochs": 5,
+    "batch_size": 100,
+    "initialization_seed": 42,
+    "selection_rule": "Highest final epoch validation accuracy; exact tie keeps 50 units. Final epoch weights retained.",
+    "split_file": "results/stage2/split_indices.npz",
+    "train_indices_sha256": "5d59711ba1feedab12a02ff2c6e0f8eef4f3d72e56cb7d14f82214e674762475",
+    "validation_indices_sha256": "1b1cc21c8d6c8a4c79457f3d2a975b33741aefcfa4ca514ac10761a3ae6e28f8"
+  },
+  "prediction_records": {
+    "logistic": {
+      "source": "Computed once from frozen model",
+      "created_utc": "2026-10-24T01:13:41Z"
+    },
+    "neural": {
+      "source": "Computed once from frozen model",
+      "created_utc": "2026-10-24T01:13:42Z"
+    }
+  },
+  "test_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.9254,
+      "macro_precision": 0.9244319002938894,
+      "macro_recall": 0.9243477008476868,
+      "macro_f1": 0.9243025894985898,
+      "correct": 9254,
+      "incorrect": 746
+    },
+    "Selected Neural Network": {
+      "accuracy": 0.9753,
+      "macro_precision": 0.9751814850185851,
+      "macro_recall": 0.9749538646239934,
+      "macro_f1": 0.9750451010715324,
+      "correct": 9753,
+      "incorrect": 247
+    }
+  },
+  "comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Test accuracy": 0.9254,
+      "Macro precision": 0.9244319002938894,
+      "Macro recall": 0.9243477008476868,
+      "Macro F1": 0.9243025894985898,
+      "Correct predictions": 9254,
+      "Incorrect predictions": 746,
+      "Recorded training time (seconds)": 52.84525089999988
+    },
+    {
+      "Model": "Selected Neural Network (100/100)",
+      "Test accuracy": 0.9753,
+      "Macro precision": 0.9751814850185851,
+      "Macro recall": 0.9749538646239934,
+      "Macro F1": 0.9750451010715324,
+      "Correct predictions": 9753,
+      "Incorrect predictions": 247,
+      "Recorded training time (seconds)": 23.330180400000245
+    }
+  ],
+  "classification_reports": {
+    "logistic": {
+      "0": {
+        "precision": 0.9541375872382851,
+        "recall": 0.976530612244898,
+        "f1-score": 0.9652042360060514,
+        "support": 980.0
+      },
+      "1": {
+        "precision": 0.9610726643598616,
+        "recall": 0.9788546255506608,
+        "f1-score": 0.9698821475338281,
+        "support": 1135.0
+      },
+      "2": {
+        "precision": 0.9314516129032258,
+        "recall": 0.8953488372093024,
+        "f1-score": 0.9130434782608695,
+        "support": 1032.0
+      },
+      "3": {
+        "precision": 0.9004878048780488,
+        "recall": 0.9138613861386139,
+        "f1-score": 0.9071253071253071,
+        "support": 1010.0
+      },
+      "4": {
+        "precision": 0.9369277721261444,
+        "recall": 0.9378818737270875,
+        "f1-score": 0.9374045801526718,
+        "support": 982.0
+      },
+      "5": {
+        "precision": 0.8920780711825488,
+        "recall": 0.8710762331838565,
+        "f1-score": 0.8814520703346569,
+        "support": 892.0
+      },
+      "6": {
+        "precision": 0.9392378990731205,
+        "recall": 0.9519832985386222,
+        "f1-score": 0.9455676516329704,
+        "support": 958.0
+      },
+      "7": {
+        "precision": 0.9365708622398414,
+        "recall": 0.919260700389105,
+        "f1-score": 0.9278350515463918,
+        "support": 1028.0
+      },
+      "8": {
+        "precision": 0.878323108384458,
+        "recall": 0.8819301848049281,
+        "f1-score": 0.8801229508196722,
+        "support": 974.0
+      },
+      "9": {
+        "precision": 0.9140316205533597,
+        "recall": 0.9167492566897919,
+        "f1-score": 0.9153884215734784,
+        "support": 1009.0
+      },
+      "accuracy": 0.9254,
+      "macro avg": {
+        "precision": 0.9244319002938894,
+        "recall": 0.9243477008476868,
+        "f1-score": 0.9243025894985898,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.9252749135107037,
+        "recall": 0.9254,
+        "f1-score": 0.9252495277667117,
+        "support": 10000.0
+      }
+    },
+    "neural": {
+      "0": {
+        "precision": 0.9807106598984772,
+        "recall": 0.9857142857142858,
+        "f1-score": 0.983206106870229,
+        "support": 980.0
+      },
+      "1": {
+        "precision": 0.9885462555066079,
+        "recall": 0.9885462555066079,
+        "f1-score": 0.9885462555066079,
+        "support": 1135.0
+      },
+      "2": {
+        "precision": 0.9823182711198428,
+        "recall": 0.9689922480620154,
+        "f1-score": 0.975609756097561,
+        "support": 1032.0
+      },
+      "3": {
+        "precision": 0.9705304518664047,
+        "recall": 0.9782178217821782,
+        "f1-score": 0.9743589743589743,
+        "support": 1010.0
+      },
+      "4": {
+        "precision": 0.9744637385086823,
+        "recall": 0.9714867617107943,
+        "f1-score": 0.972972972972973,
+        "support": 982.0
+      },
+      "5": {
+        "precision": 0.9782857142857143,
+        "recall": 0.9596412556053812,
+        "f1-score": 0.9688737973967176,
+        "support": 892.0
+      },
+      "6": {
+        "precision": 0.974012474012474,
+        "recall": 0.9780793319415448,
+        "f1-score": 0.9760416666666667,
+        "support": 958.0
+      },
+      "7": {
+        "precision": 0.9692011549566891,
+        "recall": 0.9795719844357976,
+        "f1-score": 0.9743589743589743,
+        "support": 1028.0
+      },
+      "8": {
+        "precision": 0.9690402476780186,
+        "recall": 0.9640657084188912,
+        "f1-score": 0.9665465774575399,
+        "support": 974.0
+      },
+      "9": {
+        "precision": 0.9647058823529412,
+        "recall": 0.9752229930624381,
+        "f1-score": 0.9699359290290783,
+        "support": 1009.0
+      },
+      "accuracy": 0.9753,
+      "macro avg": {
+        "precision": 0.9751814850185851,
+        "recall": 0.9749538646239934,
+        "f1-score": 0.9750451010715324,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.9753315081171573,
+        "recall": 0.9753,
+        "f1-score": 0.975293936500708,
+        "support": 10000.0
+      }
+    }
+  },
+  "confusion_matrices": {
+    "logistic": [
+      [
+        957,
+        0,
+        2,
+        3,
+        0,
+        10,
+        3,
+        4,
+        1,
+        0
+      ],
+      [
+        0,
+        1111,
+        4,
+        2,
+        0,
+        2,
+        3,
+        2,
+        11,
+        0
+      ],
+      [
+        6,
+        9,
+        924,
+        17,
+        11,
+        4,
+        12,
+        9,
+        36,
+        4
+      ],
+      [
+        4,
+        1,
+        16,
+        923,
+        0,
+        26,
+        3,
+        10,
+        19,
+        8
+      ],
+      [
+        1,
+        3,
+        5,
+        3,
+        921,
+        0,
+        10,
+        4,
+        8,
+        27
+      ],
+      [
+        9,
+        2,
+        2,
+        38,
+        8,
+        777,
+        16,
+        5,
+        32,
+        3
+      ],
+      [
+        8,
+        3,
+        7,
+        3,
+        7,
+        15,
+        912,
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        7,
+        25,
+        5,
+        5,
+        1,
+        0,
+        945,
+        5,
+        34
+      ],
+      [
+        8,
+        12,
+        7,
+        21,
+        7,
+        28,
+        12,
+        9,
+        859,
+        11
+      ],
+      [
+        9,
+        8,
+        0,
+        10,
+        24,
+        8,
+        0,
+        19,
+        6,
+        925
+      ]
+    ],
+    "neural": [
+      [
+        966,
+        0,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        1,
+        1
+      ],
+      [
+        0,
+        1122,
+        4,
+        0,
+        0,
+        1,
+        4,
+        0,
+        4,
+        0
+      ],
+      [
+        6,
+        1,
+        1000,
+        6,
+        4,
+        0,
+        3,
+        8,
+        4,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        988,
+        0,
+        4,
+        0,
+        6,
+        4,
+        4
+      ],
+      [
+        0,
+        0,
+        4,
+        1,
+        954,
+        0,
+        4,
+        3,
+        1,
+        15
+      ],
+      [
+        5,
+        0,
+        0,
+        9,
+        2,
+        856,
+        7,
+        3,
+        6,
+        4
+      ],
+      [
+        2,
+        3,
+        1,
+        1,
+        7,
+        2,
+        937,
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        4,
+        6,
+        2,
+        0,
+        0,
+        0,
+        1007,
+        2,
+        7
+      ],
+      [
+        3,
+        1,
+        1,
+        6,
+        4,
+        9,
+        3,
+        4,
+        939,
+        4
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        7,
+        1,
+        1,
+        4,
+        4,
+        984
+      ]
+    ]
+  },
+  "recorded_training_times_seconds": {
+    "logistic_regression": 52.84525089999988,
+    "selected_neural_network": 23.330180400000245,
+    "both_nn_candidates_total": 47.07724610000059
+  },
+  "training_time_limitation": "NN fits include validation during epochs; LR fit excludes subsequent validation. Single runs do not establish a definitive training-speed ranking.",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2"
+  },
+  "error_image_selection": "First ten incorrect indices in ascending original test order for each model",
+  "no_retraining_or_tuning": true,
+  "rejected_50_unit_model_tested": false,
+  "execution_verification": {
+    "status": "completed",
+    "method": "All 21 evaluation notebook cells executed in order with the dedicated interpreter. Two error-image plotting cells were rerendered from saved predictions only to simplify labels and spacing; independent post-run checks use saved prediction records, with no further model inference.",
+    "python_executable": "<active Python interpreter>",
+    "completed_utc": "2026-10-24T01:14:02Z",
+    "verification_completed_utc": "2026-10-24T01:27:26.159703+00:00",
+    "code_cells_executed": 21,
+    "initial_model_prediction_passes": {
+      "logistic": 1,
+      "neural": 1
+    },
+    "prediction_pass_evidence": "Cells 14 and 16 each executed their computed-once branch containing one predict call, saved immediately; all later checks/plots use those frozen arrays.",
+    "additional_model_prediction_passes_during_verification": 0,
+    "training_or_model_modification_calls": 0,
+    "rejected_50_unit_model_tested": false,
+    "protected_files_unchanged": 68,
+    "frozen_hashes_match_before_and_after": true,
+    "in_memory_weight_fingerprints_unchanged": true,
+    "network_access": "Offline audit guard blocked network access throughout notebook execution; all 21 cells passed. Dataset file was local and hash verified.",
+    "figure_count": 5,
+    "plot_cells_rerendered_from_saved_predictions": [
+      31,
+      32
+    ],
+    "numerical_checks": "Independent matrices and every per-class, macro and weighted metric match original reports, CSV files and prediction records; identical 10,000 ordered true labels.",
+    "errors_in_notebook_cells": [],
+    "plot_helper_warning": "A fresh non-interactive Agg plotting helper warned that show() is unavailable; the saved PNG was inspected successfully.",
+    "helper_errors_resolved": [
+      "Windows command length exceeded; moved authoring into a project-local helper before evaluation.",
+      "Post-run helper used lo_report instead of lr_report; corrected mapping and verified saved outputs without repeating model inference."
+    ],
+    "visual_review": "All five figures inspected; error-image labels simplified to single lines with explicit spacing; final PNGs and enlarged label crops reviewed."
+  },
+  "supporting_prediction_files_sha256": {
+    "logistic_test_predictions.npz": "869273f959ab5b105e3c74fc26e16f38674ad08417f56a2ed466e36ca5cfd3de",
+    "neural_test_predictions.npz": "efcc65ef13114a99b7dfe68545cba48ec104915b7794769a9fdf2960b1f5c612"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "stage": "Stage 2: data preparation and Logistic Regression; validation only",
+  "completed_utc": "2026-10-24T00:43:08Z",
+  "python_executable": "<active Python interpreter>",
+  "python_version": "3.11.17",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "dataset_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "split_seed": 42,
+  "split_method": "np.random.seed(42); np.arange(60000); np.random.shuffle once; first 54000 train, remaining 6000 validation",
+  "training_images": 54000,
+  "validation_images": 6000,
+  "train_indices_sha256": "5d59711ba1feedab12a02ff2c6e0f8eef4f3d72e56cb7d14f82214e674762475",
+  "validation_indices_sha256": "1b1cc21c8d6c8a4c79457f3d2a975b33741aefcfa4ca514ac10761a3ae6e28f8",
+  "index_dtype": "int64",
+  "training_class_counts": [
+    5334,
+    6068,
+    5369,
+    5553,
+    5258,
+    4891,
+    5309,
+    5642,
+    5226,
+    5350
+  ],
+  "validation_class_counts": [
+    589,
+    674,
+    589,
+    578,
+    584,
+    530,
+    609,
+    623,
+    625,
+    599
+  ],
+  "preprocessing": "Original uint8 MNIST pixels -> float32 -> divide by 255 in place -> reshape each image to 784 features in C/row-major order",
+  "settings": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "fit_intercept": true
+  },
+  "solver_iterations": [
+    235
+  ],
+  "fit_warnings": [],
+  "convergence_warnings": 0,
+  "metrics_average": "macro over all ten digits; zero_division=0",
+  "validation_metrics": {
+    "accuracy": 0.9236666666666666,
+    "macro_precision": 0.9230049135063446,
+    "macro_recall": 0.9225100000873843,
+    "macro_f1": 0.9226062575456211
+  },
+  "training_time_seconds": 52.84525089999988,
+  "timing_scope": "One fit call; excludes loading, preparation, prediction, plotting and saving",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "model_file": "models/logistic_regression.joblib",
+  "model_sha256": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+  "test_partition": "Reserved; never inspected, transformed, predicted or evaluated in Stage 2",
+  "reload_prediction_match": true,
+  "reloaded_validation_images": 6000
+}

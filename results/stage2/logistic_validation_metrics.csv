@@ -1,0 +1,2 @@
+Model,Evaluation partition,Accuracy,Macro precision,Macro recall,Macro F1,Training time (seconds)
+Logistic Regression,Validation only,0.9236666666666666,0.9230049135063446,0.9225100000873843,0.9226062575456211,52.84525089999988
