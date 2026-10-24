@@ -214,7 +214,7 @@ These references explain concepts and historical context. They are not the sourc
 
 ## Personal preparation checklist
 
-- Replace the cover placeholders with confirmed personal details.
+- Confirm the personalised cover identifies AJIBADE DARASIMI MICHAEL, 2023/46544, Osun State University, Department of Computer Science. The report includes the confirmed faculty. No unconfirmed supervisor or official submission date is attributed.
 - Practise the 14 slides for approximately 9 minutes 30 seconds, excluding questions.
 - Open the demonstration with the correct kernel and existing cache before speaking.
 - Practise one metric calculation and explain the actual-versus-predicted matrix axes.

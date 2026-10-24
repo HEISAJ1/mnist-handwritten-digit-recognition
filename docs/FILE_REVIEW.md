@@ -1,6 +1,6 @@
 # Individual file review and intended commit list
 
-These 72 files are intended for a future reviewed commit. Nothing is staged or committed. Each inclusion is recorded below. The repaired presentation replaces the retired deck, whose backup is ignored locally.
+This Stage 9 inventory contains 74 intended submission files: the 72 previously published artifacts plus the complete PDF technical report and a separate cleanup-verification record. The repository is already published privately; this review covers its authorised academic-cleanup update. Each inclusion is recorded below. Previous presentation files and temporary conversion/rendering files are backed up in the ignored local cache.
 
 | File | Inclusion reason |
 |---|---|
@@ -19,7 +19,8 @@ These 72 files are intended for a future reviewed commit. Nothing is staged or c
 | docs/REPRODUCIBILITY.md | Repository documentation, direct dependencies, inclusion or privacy configuration. |
 | docs/demonstration_verification.json | Repository documentation, direct dependencies, inclusion or privacy configuration. |
 | docs/environment_versions.json | Repository documentation, direct dependencies, inclusion or privacy configuration. |
-| docs/final_audit_verification.json | Machine-readable current audit and preservation evidence. |
+| docs/final_audit_verification.json | Unchanged historical Stage 7 audit and preservation evidence. |
+| docs/submission_cleanup_verification.json | Current Stage 9 document hashes, preservation checks and verification scope. |
 | docs/source_artifacts.json | Repository documentation, direct dependencies, inclusion or privacy configuration. |
 | docs/verification.json | Repository documentation, direct dependencies, inclusion or privacy configuration. |
 | models/logistic_regression.joblib | Trusted unchanged trained artifact and input contract. |
@@ -32,7 +33,8 @@ These 72 files are intended for a future reviewed commit. Nothing is staged or c
 | presentation/MNIST_Presentation_Compatible.pptx | Repaired current 14-slide presentation or matching 14-page PDF. |
 | presentation/PRESENTATION_SPEAKER_NOTES.md | Retained slide explanations or defense questions, with current repaired-file status. |
 | presentation/PROJECT_DEFENSE_QA.md | Retained slide explanations or defense questions, with current repaired-file status. |
-| report/TECHNICAL_REPORT.md | Complete report with documented portability edits and Stage 7 notation-only correction. |
+| report/TECHNICAL_REPORT.md | Complete report with confirmed academic header, current closing checklist and preserved analytical body. |
+| report/TECHNICAL_REPORT.pdf | Complete paginated derivative with all sections, eleven figures, nine tables, equations and references. |
 | report/figures/training_class_distribution.png | Original saved exploration figure. |
 | report/figures/training_digit_samples.png | Original saved exploration figure. |
 | report/figures/training_intensity_distribution.png | Original saved exploration figure. |
@@ -79,6 +81,6 @@ These 72 files are intended for a future reviewed commit. Nothing is staged or c
 
 ## Excluded material
 
-Private classroom sources, original assignment PDF and AGENTS.md, environment folders, dataset caches, credentials, agent configuration, temporary helpers, rendered review pages and superseded-presentation backups remain outside the intended submission. All four small model archives are included. No Git LFS or external model service is needed. Administrative placeholders are intentional. No license, account identity, remote, hosted URL or deployment claim has been invented.
+Private classroom sources, original assignment PDF and AGENTS.md, environment folders, dataset caches, credentials, agent configuration, temporary helpers, rendered review pages and superseded-presentation backups remain outside the intended submission. All four small model archives are included. No Git LFS or external model service is needed. Confirmed academic details were supplied by the student for this private academic submission. Optional unconfirmed supervisor and official submission date are omitted. Historical audit/verification snapshots retain their earlier placeholder findings explicitly as history. The private hosted repository is linked from README. No licence or deployment claim has been invented.
 
 See [the final audit](../FINAL_SUBMISSION_AUDIT.md) for present status. Historical verification records describe their original stages and have not been rewritten to imply later work occurred earlier.

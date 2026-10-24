@@ -10,8 +10,8 @@ All experimental values come from existing saved records. The figures are the or
 
 ## Presentation setup
 
-- Fill in the three cover placeholders with confirmed details. Add department, supervisor and submission date only if required.
-- The student confirmed that the repaired PowerPoint opens correctly on Windows. Stage 7 rendered and inspected every page of the matching 14-page PDF. Rehearse with the repaired deck on the presentation computer before submission.
+- The cover identifies AJIBADE DARASIMI MICHAEL, matriculation number 2023/46544, Osun State University, Department of Computer Science. The report additionally identifies the Faculty of Computing and Information Technology. Optional unconfirmed supervisor and official submission-date fields are omitted.
+- The student previously confirmed that the compatible PowerPoint opens correctly on Windows. Stage 9 integrated the downloaded personalised version, checked its editable slide content and speaker notes, and rendered and inspected all 14 matching PDF pages. Rehearse with the repaired deck on the presentation computer before submission.
 - Keep the repository folder structure intact for the source figures and demonstration.
 - Open MNIST_Demonstration.ipynb in Jupyter with the documented Python 3.11 kernel before speaking. Prepare the existing cache without running training or final test evaluation.
 - Use the saved results for discussion. Do not alter models in response to demonstration or test errors.
@@ -23,7 +23,7 @@ Suggested time: 20 seconds.
 
 **What to say.** My project compares Scikit-learn Logistic Regression with a small TensorFlow/Keras neural network for handwritten digit recognition. I will explain the data preparation, the validation experiment, the final independent test results and the prediction demonstration.
 
-**Before presenting.** Replace [STUDENT NAME], [MATRICULATION NUMBER] and [INSTITUTION] on the cover. Add confirmed department, supervisor and submission date only if your institution requires them. Do not invent these details. The full official project title is the cover title.
+**Before presenting.** Check the personalised cover: AJIBADE DARASIMI MICHAEL; 2023/46544; Osun State University; Department of Computer Science. Introduce yourself with these confirmed details. The full official project title remains unchanged. Supervisor and official submission date are omitted because they are unconfirmed and not required by the supplied brief.
 
 **Source.** Original assignment PDF, pages 1 and 4. The technical report supplies the completed methodology and findings.
 

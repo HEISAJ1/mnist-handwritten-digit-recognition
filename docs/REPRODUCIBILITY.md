@@ -27,8 +27,8 @@ The frozen final-evaluation guards are tied to the shipped artifacts. Freshly tr
 - Fresh environment creation and dependency installation on a clean machine.
 - Interactive Jupyter opening/rendering with the documented kernel.
 - Full training execution in an isolated reproduction copy, only when authorised.
-- Review of administrative report placeholders and any institution-specific formatting.
-- Separate approval before any commit, remote or GitHub publication. The presentation artifacts were approved and integrated in Stages 6B–7.
+- Confirm any institution-specific formatting, citation or disclosure rules. Confirmed academic details are complete in Stage 9.
+- The project is already hosted in the private GitHub repository linked from README. Stage 9 separately authorises a final cleanup commit and push. Confirm lecturer access while retaining private visibility.
 
 No full fresh-install or training reproducibility claim is made at this stage. The supplied working results and import/static checks are identified separately.
 
@@ -48,3 +48,7 @@ The repaired presentation and PDF are linked in the README. The student confirme
 The three submission notebooks retain Python 3.11.17 metadata and their existing code and outputs. Python 3.13.9 metadata remains only in the protected original project notebooks, a previously documented editor-save discrepancy. No notebook was rewritten to address it.
 
 The saved-artifact verifier and current-environment import checks were run without loading models, training, predicting or loading MNIST. Direct dependency pins matched the dedicated Python 3.11.17 environment, and pip check reported no broken requirements. This is not a fresh-machine installation or a new full notebook execution. See [the final audit](../FINAL_SUBMISSION_AUDIT.md) and [machine-readable evidence](final_audit_verification.json).
+
+## Stage 9 academic cleanup
+
+The personalised presentation was checked against the approved deck: only the cover and its notes changed; slides 2–14 and the embedded project images remain unchanged. The report body from Abstract through the coverage table is unchanged; its administrative header and closing checklist were updated. A complete PDF was typeset from the Markdown using installed Pandoc and Matplotlib, without installing packages. The PDF was rendered with the Windows PDF API for visual review. This document conversion does not rerun notebooks or models. Safe saved-array verification is distinct from fresh-machine training reproduction, which remains untested.

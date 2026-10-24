@@ -26,3 +26,7 @@ Launch from the repository root and select the registered kernel. The dataset ca
 ## Stage 7 documentation correction
 
 The submission report's display-math normalization formula contained inline dollar delimiters inside its float32 numerator. Stage 7 replaced them with parentheses, expressing float32(I) divided by 255 correctly. This is a notation-only correction. Model code, numerical values, figures and original report bytes remain unchanged. The source catalog retains the previous submission hash and the corrected copy's hash, together with the reason. No notebook code or metadata was edited in Stage 7.
+
+## Stage 9 administrative changes
+
+Only the submission report header and closing administrative checklist were personalised using confirmed student details. The entire analytical body, equations, results, references and figure links were preserved. Optional unconfirmed supervisor and official submission-date fields were omitted. The source catalog retains the previous report-copy hash and its original source hash, and records the new submission hash with this reason. The complete PDF is a typeset derivative of this Markdown, not a new experiment. Models, all three notebooks and saved results remain byte-identical.

@@ -6,4 +6,8 @@ The assignment requires MNIST loading through TensorFlow/Keras; exploration of i
 
 Submission deliverables include notebooks/code, trained models, statistics and figures, the technical report, repository documentation and dependencies, followed by a presentation and prediction demonstration. The report requires introduction, problem statement, objectives, background research, methodology, results, discussion, conclusion and recommendations.
 
-Current Stage 7 status: modelling, evidence, report, reproducibility documentation, the executed digit demonstration and repaired 14-slide presentation are available locally. The matching 14-page presentation PDF has been rendered and inspected. GitHub publication and delivery of the live academic defense remain pending. The final audit distinguishes these local artifacts from a hosted repository.
+Historical Stage 7 status: modelling, evidence, report, reproducibility documentation, the executed digit demonstration and repaired 14-slide presentation are available locally. The matching 14-page presentation PDF has been rendered and inspected. GitHub publication and delivery of the live academic defense remain pending. The final audit distinguishes these local artifacts from a hosted repository.
+
+## Stage 9 status — 24 October 2026
+
+The project is published at [HEISAJ1/mnist-handwritten-digit-recognition](https://github.com/HEISAJ1/mnist-handwritten-digit-recognition), verified PRIVATE before this cleanup. All nine final-deliverable categories have supporting artifacts. Confirmed academic details are included in the report and personalised presentation; the report additionally includes the faculty. Optional unconfirmed supervisor and official submission date are omitted. No training, new inference or result changes were needed. Live academic delivery and lecturer access remain hand-in tasks.

@@ -1,11 +1,10 @@
 # Comparative Analysis of Machine Learning and Deep Learning Techniques for Handwritten Digit Recognition
 
-**Student name:** [STUDENT NAME]  
-**Matriculation number:** [MATRICULATION NUMBER]  
-**Institution:** [INSTITUTION]  
-**Department:** [DEPARTMENT]  
-**Supervisor:** [SUPERVISOR]  
-**Submission date:** [SUBMISSION DATE]
+**Student name:** AJIBADE DARASIMI MICHAEL  
+**Matriculation number:** 2023/46544  
+**University:** Osun State University  
+**Faculty:** Faculty of Computing and Information Technology  
+**Department:** Computer Science
 
 ## Abstract
 
@@ -490,9 +489,9 @@ To inspect this report, open it in a Markdown viewer supporting relative images 
 
 Before submission:
 
-- [ ] Replace the six administrative placeholders on the title page with the student's confirmed information.
+- [x] Confirmed name, matriculation number, university, faculty and department are included. Optional unconfirmed supervisor and official submission-date fields are omitted; the supplied brief does not require them.
 - [ ] Confirm any institution-specific citation, formatting, declaration or academic-assistance disclosure rules; none are specified in the supplied brief. No personal declaration has been invented.
-- [ ] Review the mathematical notation and relative images in the intended Markdown viewer before any separately requested Word/PDF conversion. No paginated report or typeset conversion is claimed here.
+- [x] The complete report is also available as a paginated PDF. All original report sections, mathematical explanations, numerical tables, references and eleven existing figures are retained. The PDF was rendered and reviewed during Stage 9.
 - [ ] Confirm personal understanding of the procedures and figures before the eventual presentation and demonstration, as the brief requires.
 
-The required technical-report content is covered. External reference identities and the cited documentation were verified; no unverified DOI or invented reference has been added. The report's administrative fields still require personal input. Repository publication, a presentation and a live prediction demonstration are separate overall-submission deliverables and remain outside this approved report phase.
+The required technical-report content is covered. External reference identities and the cited documentation were verified; no unverified DOI or invented reference has been added. The confirmed administrative details are complete. The private GitHub repository, compatible presentation and verified notebook demonstration are now available as separate overall-submission deliverables. The original report phase and its experiment records remain preserved outside this submission copy.

@@ -15,6 +15,7 @@ docs/demonstration_verification.json
 docs/environment_versions.json
 docs/final_audit_verification.json
 docs/source_artifacts.json
+docs/submission_cleanup_verification.json
 docs/verification.json
 models/logistic_regression.joblib
 models/logistic_regression_preprocessing.md
@@ -27,6 +28,7 @@ presentation/MNIST_Presentation_Compatible.pptx
 presentation/PRESENTATION_SPEAKER_NOTES.md
 presentation/PROJECT_DEFENSE_QA.md
 report/TECHNICAL_REPORT.md
+report/TECHNICAL_REPORT.pdf
 report/figures/training_class_distribution.png
 report/figures/training_digit_samples.png
 report/figures/training_intensity_distribution.png

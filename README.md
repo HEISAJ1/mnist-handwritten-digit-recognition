@@ -1,10 +1,16 @@
 # Comparative Analysis of Machine Learning and Deep Learning Techniques for Handwritten Digit Recognition
 
+**Author:** AJIBADE DARASIMI MICHAEL  
+**Matriculation number:** 2023/46544  
+**University:** Osun State University  
+**Faculty:** Faculty of Computing and Information Technology  
+**Department:** Computer Science
+
 ## 1. Project overview
 
 This undergraduate Data Science project compares Scikit-learn Logistic Regression with a simple TensorFlow/Keras neural network on MNIST. The work covers exploration, introductory statistics, preparation, validation experiments and a final comparison using frozen models. It follows the lecturer's sequential Jupyter Notebook style.
 
-The completed results are **92.54% final test accuracy for Logistic Regression** and **97.53% for the selected 100/100 neural network**. This repository is a local submission preparation. No application deployment or GitHub publication is claimed.
+The completed results are **92.54% final test accuracy for Logistic Regression** and **97.53% for the selected 100/100 neural network**. The project is hosted in the **PRIVATE** GitHub repository [HEISAJ1/mnist-handwritten-digit-recognition](https://github.com/HEISAJ1/mnist-handwritten-digit-recognition). Access requires permission. No application deployment is claimed.
 
 A working [handwritten digit demonstration](MNIST_Demonstration.ipynb) now displays an index-selected image and predictions from both saved models. It uses original training images for illustration and does not repeat final test evaluation.
 
@@ -142,6 +148,7 @@ github_submission/
 │   └── stage4/              # frozen final results, reports, plots and predictions
 ├── report/
 │   ├── TECHNICAL_REPORT.md
+│   ├── TECHNICAL_REPORT.pdf
 │   └── figures/             # unchanged exports of existing exploration figures
 └── docs/
     ├── PROJECT_BRIEF.md
@@ -152,6 +159,7 @@ github_submission/
     ├── environment_versions.json
     ├── demonstration_verification.json
     ├── final_audit_verification.json
+    ├── submission_cleanup_verification.json
     ├── FILE_REVIEW.md
     └── verification.json
 ~~~
@@ -241,7 +249,7 @@ Future work could repeat development experiments across seeds, test limited clas
 
 ## 18. Technical report and references
 
-The [complete technical report](report/TECHNICAL_REPORT.md) contains the abstract, nine required sections, mathematics, detailed findings, classroom-method evidence, limitations and verified references. Administrative information remains as six labelled placeholders.
+The [complete technical report](report/TECHNICAL_REPORT.md) contains the abstract, nine required sections, mathematics, detailed findings, classroom-method evidence, limitations and verified references. The confirmed student name, matriculation number, university, faculty and department are included. Optional unconfirmed supervisor and official submission-date fields are omitted. A complete [PDF report](report/TECHNICAL_REPORT.pdf) is provided for academic hand-in.
 
 The private assignment PDF and classroom sources are not redistributed. [PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) summarises the applicable requirements; the report's source link points there explicitly. Its classroom source link points to the [method inventory](docs/CLASSROOM_METHODS.md).
 
@@ -251,17 +259,21 @@ The models, numerical results, predictions and figures were copied from verified
 
 No classroom notebooks, original assignment PDF, agent configuration, memory files, credentials, Anaconda environments, backups or dataset caches are included. Privacy scanning and artifact hashes are recorded in the local verification documentation; automated scans are useful checks, not proof that no conceivable sensitive content exists.
 
-This workspace has no commit and no remote. Publishing, account/repository selection, visibility and any licensing decision remain for a separately approved step. No GitHub URL has been invented.
+This workspace is on main and is connected to the existing **PRIVATE** repository [HEISAJ1/mnist-handwritten-digit-recognition](https://github.com/HEISAJ1/mnist-handwritten-digit-recognition). Publication was completed before Stage 9. No public visibility change is authorised. No licensing decision has been invented.
 
 
 ## 20. Presentation and final audit
 
-Use the repaired [PowerPoint](presentation/MNIST_Presentation_Compatible.pptx) and [PDF](presentation/MNIST_Presentation_Compatible.pdf), each containing 14 slides/pages. The student confirmed PowerPoint compatibility on Windows. All 14 PDF pages were rendered and visually inspected during Stage 7. The older presentation is backed up locally and excluded from the submission inventory.
+Use the repaired [PowerPoint](presentation/MNIST_Presentation_Compatible.pptx) and [PDF](presentation/MNIST_Presentation_Compatible.pdf), each containing 14 slides/pages. The student confirmed PowerPoint compatibility on Windows. The personalised replacement was integrated in Stage 9: all 14 PDF pages were rendered and inspected; 14 editable PowerPoint slides and 14 populated speaker-note parts were checked. Slides 2–14 and all embedded project figure bytes match the previously approved deck. The older presentation is backed up locally and excluded from the submission inventory.
 
 [Speaker notes](presentation/PRESENTATION_SPEAKER_NOTES.md) match the 14 slides. [Project-defense questions](presentation/PROJECT_DEFENSE_QA.md) explain the methods, mathematics, real findings and demonstration limitations. The demo remains a Jupyter Notebook using index-selected MNIST training images, not a drawing interface or web application.
 
-The [final submission audit](FINAL_SUBMISSION_AUDIT.md) maps each compulsory brief requirement to exact files and notebook cell positions. [Audit evidence](docs/final_audit_verification.json) records the current checks. Eight of the brief's nine final deliverable categories are complete as local artifacts. The hosted GitHub repository category remains pending separate approval, although its local source, README, dependencies and running instructions are prepared.
+The [final submission audit](FINAL_SUBMISSION_AUDIT.md) maps each compulsory brief requirement to exact files and notebook cell positions. [Stage 7 evidence](docs/final_audit_verification.json) records the historical checks. The audit now has a dated post-publication addendum. [Stage 9 evidence](docs/submission_cleanup_verification.json) documents the administrative cleanup and preserved artifacts. All nine final-deliverable categories have artifacts, including the existing private hosted repository. Live academic presentation, demonstration and lecturer access remain student hand-in tasks.
 
 No new model training or inference occurred during this audit. Saved prediction records confirm the reported metrics. The normalization formula in the submission report received one notation-only correction, documented in the source catalog. Modelling notebooks, model weights, experimental records, original report and classroom sources remain unchanged.
 
-Before academic submission, supply the six report administrative details and the three cover fields. Fresh-machine installation and complete training reproduction have not been tested. Before publication, approve the account, repository name, private visibility and exact staged file list. This local workspace still has no commit, remote or publication URL.
+Before academic submission, confirm institution-specific formatting or disclosure requirements, grant your lecturer access to the private repository, submit the requested files, and rehearse the slides and notebook demonstration. No required administrative field is outstanding under the supplied brief. Fresh-machine installation and complete training reproduction have not been tested. Stage 9 authorises a final documentation/presentation commit and push; the verification record distinguishes local completion from the push outcome.
+
+## 21. Final academic hand-in
+
+Use the [complete PDF report](report/TECHNICAL_REPORT.pdf), [editable presentation](presentation/MNIST_Presentation_Compatible.pptx), [presentation PDF](presentation/MNIST_Presentation_Compatible.pdf), [main notebook](MNIST_Final_Project.ipynb), [final evaluation notebook](MNIST_Final_Evaluation.ipynb), and [demonstration](MNIST_Demonstration.ipynb). Frozen models are [Logistic Regression](models/logistic_regression.joblib) and the [selected neural network](models/neural_network.keras); both input contracts and preserved candidate models are included. Keep the repository private when sharing with your lecturer.

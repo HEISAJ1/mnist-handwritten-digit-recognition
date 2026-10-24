@@ -254,3 +254,20 @@ Before publication:
 5. Only after separate approval, create the private remote and publish. Then verify remote privacy and uploaded artifact integrity.
 
 **Final assessment:** local technical artifacts and documented evidence are ready for the separately approved private-repository step. Personalisation and hosted publication remain outstanding. No missing model experiment or fabricated result was identified. Stage 7 stops here without staging, committing, pushing or publishing.
+
+
+---
+
+## Post-publication addendum — 24 October 2026 (Stage 9)
+
+This dated addendum updates the current submission status. The original Stage 7 findings above are retained as a historical record; their pending-publication and placeholder statements describe that earlier checkpoint.
+
+- The project has been published at [HEISAJ1/mnist-handwritten-digit-recognition](https://github.com/HEISAJ1/mnist-handwritten-digit-recognition). GitHub metadata confirmed PRIVATE visibility and the published initial commit 319ae7167f2d0e4697ac894d699d97ff5905ba32 before cleanup. All nine compulsory deliverable categories now have supporting artifacts, including the hosted repository.
+- Confirmed academic details: AJIBADE DARASIMI MICHAEL; 2023/46544; Osun State University; Faculty of Computing and Information Technology; Computer Science. The report includes all five details; the presentation cover includes the name, matriculation number, university and department. Optional unconfirmed supervisor and official submission date are omitted because the brief does not require them. This addendum's date is an audit date, not an official submission date.
+- The downloaded personalised compatible PowerPoint and matching PDF replaced their corresponding submission files after ignored backups were made. Fourteen editable slides, speaker notes and fourteen populated rendered PDF pages were checked. Slides 2–14 and original embedded figure bytes are unchanged.
+- The complete technical report is available as Markdown and a paginated PDF, preserving all nine required sections, references, eleven figures, tables and mathematics. The analytical Markdown body remains unchanged; only its administrative header and closing checklist were updated.
+- All three notebooks, four model archives, previous verification records and Stage 2–4 results remain unchanged. Saved prediction records still support 92.54% and 97.53% final accuracy. No model loading, training, prediction or test-set tuning occurred during this cleanup.
+- Current checks and document hashes are recorded separately in [Stage 9 verification](docs/submission_cleanup_verification.json). Historical Stage 7 verification JSON was not rewritten. The explicit inventory includes the new complete PDF report and current cleanup record.
+- Fresh-machine dependency installation and full training reproduction remain untested. Academic hand-in, lecturer access to the private repository, institutional formatting/disclosure requirements and the live defense/demonstration remain student tasks. No required administrative field remains outstanding under the supplied brief.
+
+**Current assessment:** all nine compulsory deliverable categories have completed artifacts. Final academic delivery remains the student's responsibility. The final cleanup commit and push are authorised; the completion response states whether the push succeeded rather than treating local verification as proof of upload.

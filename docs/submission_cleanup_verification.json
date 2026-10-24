@@ -1,0 +1,159 @@
+{
+  "stage": "9: final academic submission cleanup",
+  "audit_date": "2026-10-24",
+  "official_submission_date": null,
+  "administrative_details": {
+    "student_name": "AJIBADE DARASIMI MICHAEL",
+    "matriculation_number": "2023/46544",
+    "university": "Osun State University",
+    "faculty": "Faculty of Computing and Information Technology",
+    "department": "Computer Science"
+  },
+  "supervisor_and_official_submission_date": "Unconfirmed optional fields omitted; not required by supplied brief.",
+  "repository": {
+    "url": "https://github.com/HEISAJ1/mnist-handwritten-digit-recognition",
+    "visibility_before_cleanup": "PRIVATE; independently read through GitHub connector",
+    "published_base_commit": "319ae7167f2d0e4697ac894d699d97ff5905ba32",
+    "final_update_publication": "Local verification does not prove push success; see completion report and Git history."
+  },
+  "intended_files": 74,
+  "new_files": [
+    "report/TECHNICAL_REPORT.pdf",
+    "docs/submission_cleanup_verification.json"
+  ],
+  "rendered_pages": {
+    "presentation": 14,
+    "technical_report": 32
+  },
+  "visual_review": "All presentation pages and final report pages reviewed; equations and tables additionally checked at larger size.",
+  "presentation": {
+    "editable_slides": 14,
+    "populated_note_parts": 14,
+    "slides_2_to_14_text_unchanged": true,
+    "embedded_figure_bytes_unchanged": true,
+    "new_native_powerpoint_opening": "Not automated in this restricted Windows session; structural package and matching PDF rendering checked."
+  },
+  "report": {
+    "source_markdown_sha256": "a73a904384a380cae1c63369e29a581cf406209621fad2bfb9caf3b54480ec05",
+    "pdf_sha256": "9f6094dcd4b3b2caeee0d9933792f874a8cb794d15beee005fa299e48069d53c",
+    "pages": 32,
+    "source_ast_blocks": 185,
+    "body_blocks_typeset": 183,
+    "cover_blocks": 2,
+    "figures": 11,
+    "tables": 9,
+    "all_blocks_accounted_for": true,
+    "tools": "Installed Pandoc 3.8 AST and Matplotlib PdfPages; existing figures embedded without alteration; no package installation.",
+    "source_newline_format_preserved": true
+  },
+  "protected_submission_files_unchanged": 59,
+  "protected_original_files_unchanged": 96,
+  "unchanged_model_sha256": {
+    "models/logistic_regression.joblib": "d97566f2cbb699d3ec2f8f7ba2370314adab7b449788c2917863c65dbbac6379",
+    "models/neural_network.keras": "04b9c0ac6dd5128127311aea2ddc400d601f282d250004914348e21b0a94ccde",
+    "models/neural_network_100.keras": "dea2fbecb7798396799cdf3d88bf30e79df139ebd4c68fd413e6e81ff57c6b53",
+    "models/neural_network_50.keras": "697dd36023e8a14a66a7ba08891e5ec70228fd38c3ace0bb09fea278cd443bd0"
+  },
+  "unchanged_notebook_sha256": {
+    "MNIST_Demonstration.ipynb": "abf11a3e65a6025bd87c2fab6587bfdd3866e6d78ff9f4c43f605fb3dd638d77",
+    "MNIST_Final_Evaluation.ipynb": "61279ed5670a99a584e5b0025ff130a6d0d1b958ed6a404eaa9feb4b0abc02d0",
+    "MNIST_Final_Project.ipynb": "9ee4255bd245c4b9a4ba5569807d5875d2ab735edfd6dec8f149662305c86883"
+  },
+  "current_document_sha256": {
+    "presentation/MNIST_Presentation_Compatible.pptx": "a89dfbcb9b771459b7d45348e827883136bdaf1e2709df922e3a9f9c09b6fb57",
+    "presentation/MNIST_Presentation_Compatible.pdf": "3101154ba4351694002e1a6332fc1585aa4830a0131508bad5a98953fd623e81",
+    "report/TECHNICAL_REPORT.md": "a73a904384a380cae1c63369e29a581cf406209621fad2bfb9caf3b54480ec05",
+    "report/TECHNICAL_REPORT.pdf": "9f6094dcd4b3b2caeee0d9933792f874a8cb794d15beee005fa299e48069d53c"
+  },
+  "downloaded_presentation_files_match_submission_bytes": true,
+  "test_accuracy": {
+    "Logistic Regression": 0.9254,
+    "Selected Neural Network": 0.9753
+  },
+  "historical_records": "Existing Stage 5B-7 verification JSON and all experimental records unchanged; original Stage 7 audit preserved as byte prefix with dated addendum.",
+  "training_calls": 0,
+  "model_loading_calls": 0,
+  "new_prediction_calls": 0,
+  "notebook_execution_calls": 0,
+  "known_limits": [
+    "No fresh-machine environment creation or full training reproduction was performed.",
+    "Supervisor and official submission date remain unconfirmed and omitted.",
+    "Lecturer repository access, academic upload and live presentation/demonstration remain student hand-in tasks."
+  ],
+  "errors_and_corrections": [
+    "Presentation academic text is uppercase; cover check corrected to case-insensitive comparison.",
+    "Word COM export unavailable: Windows error 0x80070520; used installed Pandoc and Matplotlib for complete PDF typesetting.",
+    "Figure-caption parser adjusted to recognise original italic captions.",
+    "Initial PDF inline-equation spacing overlapped; layout corrected and final PDF rerendered."
+  ],
+  "current_environment_dependency_check": "Dedicated Python 3.11.17: pip check reported no broken requirements; no packages installed.",
+  "safe_verifier": {
+    "status": "passed",
+    "notebooks": {
+      "MNIST_Final_Project.ipynb": {
+        "code_cells": 40,
+        "check": "JSON structure and syntax; no execution"
+      },
+      "MNIST_Final_Evaluation.ipynb": {
+        "code_cells": 21,
+        "check": "JSON structure and syntax; no execution"
+      },
+      "MNIST_Demonstration.ipynb": {
+        "code_cells": 11,
+        "check": "JSON structure and syntax; no execution"
+      }
+    },
+    "copied_artifacts": 50,
+    "submission_files": 74,
+    "valid_local_links": 107,
+    "report_figures": 11,
+    "metrics_from_saved_predictions": {
+      "logistic_validation": {
+        "accuracy": 0.9236666666666666,
+        "macro_precision": 0.9230049135063446,
+        "macro_recall": 0.9225100000873843,
+        "macro_f1": 0.9226062575456211,
+        "correct": 5542,
+        "incorrect": 458
+      },
+      "neural_validation": {
+        "accuracy": 0.9728333333333333,
+        "macro_precision": 0.9727243935440469,
+        "macro_recall": 0.9724000017765396,
+        "macro_f1": 0.9725458311815516,
+        "correct": 5837,
+        "incorrect": 163
+      },
+      "logistic_test": {
+        "accuracy": 0.9254,
+        "macro_precision": 0.9244319002938894,
+        "macro_recall": 0.9243477008476868,
+        "macro_f1": 0.9243025894985898,
+        "correct": 9254,
+        "incorrect": 746
+      },
+      "neural_test": {
+        "accuracy": 0.9753,
+        "macro_precision": 0.9751814850185851,
+        "macro_recall": 0.9749538646239934,
+        "macro_f1": 0.9750451010715324,
+        "correct": 9753,
+        "incorrect": 247
+      }
+    },
+    "models_loaded": false,
+    "training_calls": 0,
+    "prediction_calls": 0,
+    "fresh_install_and_training_reproduction": "Not performed"
+  },
+  "security_and_format": {
+    "privacy_findings": [],
+    "formatting_defects": [],
+    "text_files": 50,
+    "crlf_files_accepted": 45,
+    "intentional_markdown_hard_breaks": 10,
+    "archive_parts_scanned": 113,
+    "notebook_code_cells_syntax_checked": 72,
+    "policy": "Original bytes retained; CRLF normalised in memory, intentional two-space Markdown hard breaks accepted; genuine whitespace defects rejected. Confirmed academic details are user-authorised."
+  }
+}

@@ -18,11 +18,13 @@
     {
       "file": "report/TECHNICAL_REPORT.md",
       "source_sha256": "234729b0847a2addb608c82f9edee658bc60dcb1d0c2eaf731c78702fa7f9dae",
-      "submission_sha256": "1c61903484751b9d4586cb3c97ab7e06bf9fc3f41475280ef7137a6c69bb4588",
-      "bytes": 57688,
+      "submission_sha256": "a73a904384a380cae1c63369e29a581cf406209621fad2bfb9caf3b54480ec05",
+      "bytes": 57905,
       "changed_for_portability": true,
       "stage7_previous_submission_sha256": "c859c3fcfbb6f9fd119ffa252386a2c7764254ca71203840e950ee7c55fae3ac",
-      "stage7_documentation_correction": "Replace nested inline dollar delimiters in display-math float32 normalization with function parentheses. No numerical or experimental change."
+      "stage7_documentation_correction": "Replace nested inline dollar delimiters in display-math float32 normalization with function parentheses. No numerical or experimental change.",
+      "stage9_previous_submission_sha256": "1c61903484751b9d4586cb3c97ab7e06bf9fc3f41475280ef7137a6c69bb4588",
+      "stage9_documentation_correction": "Confirmed academic header and closing administrative checklist only; analytical body, equations, tables, references and figures unchanged."
     },
     {
       "file": "models/logistic_regression.joblib",
